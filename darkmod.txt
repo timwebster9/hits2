@@ -1,0 +1,4 @@
+Title: HITS 2
+Version: [VERSION]
+Author: Frost_Salamander
+Description: Hare in the Snare 2

@@ -1,0 +1,82 @@
+DarkRadiant Map Information File Version 2
+{
+	MapProperties
+	{
+		KeyValue { "EditTimeInSeconds" "2535" } 
+		KeyValue { "LastCameraAngle" "-0.899992 99.9001 0" } 
+		KeyValue { "LastCameraPosition" "-274.932 -1508.39 53.176" } 
+		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/stone/brick/blocks_darksheen_smooth" } 
+	}
+	MapEditTimings
+	{
+		TotalSecondsEdited { 2535 }
+	}
+	Layers
+	{
+		Layer 0 { Default }
+		Layer 1 { outer_seal }
+	}
+	NodeToLayerMapping
+	{
+		Node { 0 } // entity (world)
+		Node { 0 } // brush (Brush)
+		Node { 1 } // brush (Brush)
+		Node { 1 } // brush (Brush)
+		Node { 1 } // brush (Brush)
+		Node { 1 } // brush (Brush)
+		Node { 1 } // brush (Brush)
+		Node { 1 } // brush (Brush)
+		Node { 0 } // patch (Patch)
+		Node { 0 } // patch (Patch)
+		Node { 0 } // patch (Patch)
+		Node { 0 } // patch (Patch)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // patch (Patch)
+		Node { 0 } // patch (Patch)
+		Node { 0 } // patch (Patch)
+		Node { 0 } // patch (Patch)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // patch (Patch)
+		Node { 0 } // patch (Patch)
+		Node { 0 } // patch (Patch)
+		Node { 0 } // patch (Patch)
+		Node { 0 } // patch (Patch)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // patch (Patch)
+		Node { 0 } // entity (ambient_world)
+		Node { 0 } // entity (info_player_start_1)
+		Node { 0 } // entity (atdm_liquid_water_1)
+		Node { 0 } // brush (Brush)
+	}
+	SelectionGroups
+	{
+		SelectionGroup 82 { "" }
+		SelectionGroup 83 { "" }
+		SelectionGroup 84 { "" }
+	}
+	SelectionGroupNodeMapping
+	{
+		Node { ( 0 24 ) ( 82 84 ) } // brush (Brush)
+		Node { ( 0 25 ) ( 82 84 ) } // brush (Brush)
+		Node { ( 0 26 ) ( 82 84 ) } // brush (Brush)
+		Node { ( 0 27 ) ( 82 84 ) } // brush (Brush)
+		Node { ( 0 28 ) ( 83 84 ) } // brush (Brush)
+		Node { ( 0 29 ) ( 83 84 ) } // brush (Brush)
+		Node { ( 0 30 ) ( 83 84 ) } // brush (Brush)
+		Node { ( 0 31 ) ( 83 84 ) } // brush (Brush)
+	}
+	SelectionSets
+	{
+	}
+}
