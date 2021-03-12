@@ -1,0 +1,20 @@
+Version 2
+
+eaxreverb "location_river" {
+  preset OUTDOORS_VALLEY
+}
+eaxreverb "location_mill_office" {
+  preset WOODEN_SMALLROOM
+}
+eaxreverb "location_mill_wheelroom" {
+  preset FACTORY_SMALLROOM
+}
+eaxreverb "location_mill_workroom" {
+  preset WOODEN_SMALLROOM
+}
+eaxreverb "location_mill_loftentry" {
+  preset WOODEN_CUPBOARD
+}
+eaxreverb "location_mill_loft" {
+  preset WOODEN_SMALLROOM
+}
