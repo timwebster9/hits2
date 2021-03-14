@@ -21,6 +21,15 @@ eaxreverb "location_mill_loft" {
 eaxreverb "location_house1" {
   preset WOODEN_SMALLROOM
 }
+eaxreverb "location_house1_bathroom" {
+  preset WOODEN_SMALLROOM
+}
+eaxreverb "location_house1_understairs" {
+  preset WOODEN_CUPBOARD
+}
+
+
+
 eaxreverb "location_bridge_residential_street" {
   preset ALLEY
 }
