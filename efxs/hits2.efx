@@ -1,7 +1,7 @@
 Version 2
 
 eaxreverb "location_river" {
-  preset OUTDOORS_VALLEY
+  preset OUTDOORS_CREEK
 }
 eaxreverb "location_mill_office" {
   preset WOODEN_SMALLROOM
@@ -21,3 +21,8 @@ eaxreverb "location_mill_loft" {
 eaxreverb "location_house1" {
   preset WOODEN_SMALLROOM
 }
+eaxreverb "location_bridge_residential_street" {
+  preset ALLEY
+}
+
+
