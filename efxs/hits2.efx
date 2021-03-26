@@ -27,11 +27,12 @@ eaxreverb "location_house1_bathroom" {
 eaxreverb "location_house1_understairs" {
   preset WOODEN_CUPBOARD
 }
-
-
-
-eaxreverb "location_bridge_residential_street" {
+eaxreverb "location_alley" {
   preset ALLEY
 }
-
-
+eaxreverb "location_residential_street" {
+  preset CITY_ABANDONED
+}
+eaxreverb "location_bridge_industrial" {
+  preset CITY_ABANDONED
+}
