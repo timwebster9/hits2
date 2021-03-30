@@ -27,6 +27,9 @@ eaxreverb "location_house1_bathroom" {
 eaxreverb "location_house1_understairs" {
   preset WOODEN_CUPBOARD
 }
+eaxreverb "location_humphrey" {
+  preset WOODEN_SMALLROOM
+}
 eaxreverb "location_alley" {
   preset ALLEY
 }
