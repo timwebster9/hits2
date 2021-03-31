@@ -39,6 +39,9 @@ eaxreverb "location_residential_street" {
 eaxreverb "location_bridge_industrial" {
   preset CITY_ABANDONED
 }
+eaxreverb "location_tavern_stairs" {
+  preset WOODEN_SMALLROOM
+}
 eaxreverb "location_gatehouse_entrance" {
   preset CASTLE_SMALLROOM
 }
