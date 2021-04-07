@@ -2,9 +2,9 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "467992" } 
-		KeyValue { "LastCameraAngle" "-2.2256 300.682 0" } 
-		KeyValue { "LastCameraPosition" "140.043 122.083 720.535" } 
+		KeyValue { "EditTimeInSeconds" "469043" } 
+		KeyValue { "LastCameraAngle" "9.59999 24.9824 0" } 
+		KeyValue { "LastCameraPosition" "243.801 0.883699 561.77" } 
 		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/stone/brick/old_worn_blocks_004" } 
 	}
 	Layers
@@ -23,7 +23,7 @@ DarkRadiant Map Information File Version 2
 		Layer 11 { prefabs }
 		Layer 12 { offices }
 		Layer 13 { church }
-		Layer 14 { industrial }
+		Layer 14 { brewery }
 		Layer 15 { gatehouse }
 		Layer 16 { tavern }
 		Layer 17 { vat }
@@ -4567,9 +4567,9 @@ DarkRadiant Map Information File Version 2
 		Node { 14 } // entity (func_static_882)
 		Node { 14 } // entity (func_static_883)
 		Node { 14 } // entity (func_static_884)
-		Node { 3 } // entity (func_static_885)
-		Node { 3 } // entity (light_18)
-		Node { 3 } // entity (func_emitter_7)
+		Node { 14 } // entity (func_static_885)
+		Node { 14 } // entity (light_18)
+		Node { 14 } // entity (func_emitter_7)
 		Node { 14 } // entity (func_static_886)
 		Node { 14 } // entity (func_static_887)
 		Node { 14 } // entity (func_static_888)
@@ -4689,10 +4689,15 @@ DarkRadiant Map Information File Version 2
 		Node { 0 } // entity (func_static_860)
 		Node { 0 } // entity (light_16)
 		Node { 0 } // entity (func_emitter_6)
+		Node { 3 } // entity (func_static_154)
+		Node { 3 } // entity (trigger_once_entityname_1)
+		Node { 3 } // brush (Brush)
+		Node { 3 } // entity (vat_secret_popup)
+		Node { 3 } // entity (trigger_count_1)
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 467992 }
+		TotalSecondsEdited { 469043 }
 	}
 	SelectionSets
 	{

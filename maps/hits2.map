@@ -43756,6 +43756,7 @@ brushDef3
 "rotate" "0 0 -115"
 "rotation" "1 0 0 0 -0.745451 0.666561 0 -0.666561 -0.745451"
 "target0" "atdm_mover_door_4"
+"target1" "trigger_count_1"
 }
 // entity 1585
 {
@@ -50837,7 +50838,7 @@ brushDef3
 "classname" "func_static"
 "name" "func_static_902"
 "model" "models/darkmod/furniture/tables/endtable_round01.lwo"
-"origin" "408 8 800"
+"origin" "24 8 800"
 "rotation" "1 0 0 0 1 0 0 0 1"
 "skin" "roundtable/rough_wood_sand"
 }
@@ -50845,7 +50846,7 @@ brushDef3
 {
 "classname" "func_static"
 "name" "func_static_903"
-"origin" "416 14 838.463"
+"origin" "32 14 838.463"
 "rotation" "1 0 0 0 1 0 0 0 1"
 "model" "models/darkmod/containers/bag1_small.lwo"
 }
@@ -50853,7 +50854,7 @@ brushDef3
 {
 "classname" "func_static"
 "name" "func_static_904"
-"origin" "402 4 838.531"
+"origin" "18 4 838.531"
 "rotation" "1 0 0 0 1 0 0 0 1"
 "model" "models/darkmod/containers/bucket_wood_smaller.lwo"
 }
@@ -51681,4 +51682,69 @@ brushDef3
 "cycleTrigger" "0"
 "model" "tdm_lamphaze_yellow_dim_short.prt"
 "rotation" "1 0 0 0 -1 0 0 0 -1"
+}
+// entity 1681
+{
+"classname" "func_static"
+"name" "func_static_154"
+"origin" "408 24 800.043"
+"rotation" "1 0 0 0 1 0 0 0 1"
+"model" "models/darkmod/tools/household/wash_bin.ase"
+}
+// entity 1682
+{
+"classname" "trigger_once_entityname"
+"name" "trigger_once_entityname_1"
+"model" "trigger_once_entityname_1"
+"origin" "112 -96 844"
+"entityname" "player1"
+"call" "foundSecret"
+// primitive 0
+{
+brushDef3
+{
+( 0 0 1 -44 ) ( ( 0.01302083281593192 0 255.8958333358169 ) ( 0 0.01302083281593192 0 ) ) "textures/common/trigentityname_once" 0 0 0
+( 0 0 -1 -44 ) ( ( 0.01302083281593192 0 0 ) ( 0 0.01302083281593192 0 ) ) "textures/common/trigentityname_once" 0 0 0
+( 1 0 0 -72 ) ( ( 0.01302083281593192 0 0 ) ( 0 0.01302083281593192 0 ) ) "textures/common/trigentityname_once" 0 0 0
+( 0.9650812713747478 0.2619506308017172 0 -72.53275098146499 ) ( ( 0.01302083281593192 0 0 ) ( 0 0.01302083281593192 0 ) ) "textures/common/trigentityname_once" 0 0 0
+( 0.8647889537404552 0.5021355215267159 0 -71.69379390687 ) ( ( 0.01302083281593192 0 0 ) ( 0 0.01302083281593192 0 ) ) "textures/common/trigentityname_once" 0 0 0
+( 0.7071067963268332 0.7071067963268332 0 -72.12489322533698 ) ( ( 0.01302083281593192 0 0 ) ( 0 0.01302083281593192 0 ) ) "textures/common/trigentityname_once" 0 0 0
+( 0.5021355215267159 0.8647889537404552 0 -71.69379390686998 ) ( ( 0.01302083281593192 0 0 ) ( 0 0.01302083281593192 0 ) ) "textures/common/trigentityname_once" 0 0 0
+( 0.2619506308017172 0.9650812713747478 0 -72.53275098146497 ) ( ( 0.01302083281593192 0 0 ) ( 0 0.01302083281593192 0 ) ) "textures/common/trigentityname_once" 0 0 0
+( 0 1 0 -72 ) ( ( 0.01302083281593192 0 0 ) ( 0 0.01302083281593192 0 ) ) "textures/common/trigentityname_once" 0 0 0
+( -0.2619506308017172 0.9650812713747478 0 -72.53275098146497 ) ( ( 0.01302083281593192 0 0 ) ( 0 0.01302083281593192 0 ) ) "textures/common/trigentityname_once" 0 0 0
+( -0.5021355215267159 0.8647889537404552 0 -71.69379390686997 ) ( ( 0.01302083281593192 0 0 ) ( 0 0.01302083281593192 0 ) ) "textures/common/trigentityname_once" 0 0 0
+( -0.7071067963268332 0.7071067963268332 0 -72.12489322533698 ) ( ( 0.01302083281593192 0 0 ) ( 0 0.01302083281593192 0 ) ) "textures/common/trigentityname_once" 0 0 0
+( -0.8647889537404552 0.5021355215267159 0 -71.69379390686998 ) ( ( 0.01302083281593192 0 0 ) ( 0 0.01302083281593192 0 ) ) "textures/common/trigentityname_once" 0 0 0
+( -0.9650812713747478 0.2619506308017172 0 -72.53275098146499 ) ( ( 0.01302083281593192 0 0 ) ( 0 0.01302083281593192 0 ) ) "textures/common/trigentityname_once" 0 0 0
+( -1 0 0 -72 ) ( ( 0.01302083281593192 0 0 ) ( 0 0.01302083281593192 0 ) ) "textures/common/trigentityname_once" 0 0 0
+( -0.9650812713747478 -0.2619506308017172 0 -72.53275098146497 ) ( ( 0.01302083281593192 0 0 ) ( 0 0.01302083281593192 0 ) ) "textures/common/trigentityname_once" 0 0 0
+( -0.8647889537404552 -0.5021355215267159 0 -71.69379390686998 ) ( ( 0.01302083281593192 0 0 ) ( 0 0.01302083281593192 0 ) ) "textures/common/trigentityname_once" 0 0 0
+( -0.7071067963268332 -0.7071067963268332 0 -72.12489322533699 ) ( ( 0.01302083281593192 0 0 ) ( 0 0.01302083281593192 0 ) ) "textures/common/trigentityname_once" 0 0 0
+( -0.5021355215267159 -0.8647889537404552 0 -71.69379390686998 ) ( ( 0.01302083281593192 0 0 ) ( 0 0.01302083281593192 0 ) ) "textures/common/trigentityname_once" 0 0 0
+( -0.2619506308017172 -0.9650812713747478 0 -72.532750981465 ) ( ( 0.01302083281593192 0 0 ) ( 0 0.01302083281593192 0 ) ) "textures/common/trigentityname_once" 0 0 0
+( 0 -1 0 -72 ) ( ( 0.01302083281593192 0 0 ) ( 0 0.01302083281593192 0 ) ) "textures/common/trigentityname_once" 0 0 0
+( 0.2619506308017172 -0.9650812713747478 0 -72.53275098146497 ) ( ( 0.01302083281593192 0 0 ) ( 0 0.01302083281593192 0 ) ) "textures/common/trigentityname_once" 0 0 0
+( 0.5021355215267159 -0.8647889537404552 0 -71.69379390687001 ) ( ( 0.01302083281593192 0 0 ) ( 0 0.01302083281593192 0 ) ) "textures/common/trigentityname_once" 0 0 0
+( 0.7071067963268332 -0.7071067963268332 0 -72.12489322533699 ) ( ( 0.01302083281593192 0 0 ) ( 0 0.01302083281593192 0 ) ) "textures/common/trigentityname_once" 0 0 0
+( 0.8647889537404552 -0.5021355215267159 0 -71.69379390687001 ) ( ( 0.01302083281593192 0 0 ) ( 0 0.01302083281593192 0 ) ) "textures/common/trigentityname_once" 0 0 0
+( 0.9650812713747478 -0.2619506308017172 0 -72.53275098146494 ) ( ( 0.01302083281593192 0 0 ) ( 0 0.01302083281593192 0 ) ) "textures/common/trigentityname_once" 0 0 0
+}
+}
+}
+// entity 1683
+{
+"classname" "atdm:gui_message"
+"name" "vat_secret_popup"
+"origin" "112 -96 944"
+"lines" "3"
+"show" "6"
+"text" "Secret 1 of 1 found!"
+}
+// entity 1684
+{
+"classname" "trigger_count"
+"name" "trigger_count_1"
+"origin" "296 64 568"
+"call" "foundSecret"
 }

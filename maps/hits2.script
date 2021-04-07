@@ -1,0 +1,12 @@
+
+float totalSecrets = 2;
+float totalSecretsFound = 0;
+
+void foundSecret()
+{
+    totalSecretsFound++;
+    string msg = "You have found " + totalSecretsFound + " of " + totalSecrets + " secrets.";
+    $vat_secret_popup.setKey("text", msg);
+    $vat_secret_popup.setKey("force", 1);
+    sys.trigger($vat_secret_popup);
+}
