@@ -14237,7 +14237,7 @@ brushDef3
 ( 0 1 0 -234.4900817871094 ) ( ( 0.006521739065647125 0 1.982610821723938 ) ( 0 0.375 132.5 ) ) "textures/darkmod/stone/cobblestones/sidewalk_concrete" 0 0 0
 ( -1 0 0 -3.999813079833984 ) ( ( 0.003348214318975806 0 1.125000357627869 ) ( 0 0.1875 65.5 ) ) "textures/darkmod/stone/cobblestones/sidewalk_concrete" 0 0 0
 ( 1 0 0 -536.0001831054688 ) ( ( 0.003348214318975806 0 64.40179443359375 ) ( 0 0.1875 65.5 ) ) "textures/darkmod/stone/cobblestones/sidewalk_concrete" 0 0 0
-( 0 -1 0 98.49008178710938 ) ( ( 0.01302083302289248 0 250.4010467529297 ) ( 0 0.01302083302289248 0 ) ) "textures/darkmod/stone/brick/old_worn_blocks_004" 0 0 0
+( 0 -1 0 95.99008178710938 ) ( ( 0.01302083302289248 0 250.4010467529297 ) ( 0 0.01302083302289248 0 ) ) "textures/darkmod/stone/brick/old_worn_blocks_004" 0 0 0
 }
 }
 // primitive 1171
@@ -14471,8 +14471,8 @@ brushDef3
 brushDef3
 {
 ( 0 0 1 -944 ) ( ( 0.02604166604578495 0 0 ) ( 0 0.02604166604578495 0 ) ) "textures/common/caulk" 0 0 0
-( 0 1 0 52.5 ) ( ( 0.02604166604578495 0 0 ) ( 0 0.02604166604578495 0 ) ) "textures/common/caulk" 0 0 0
-( 1 0 0 4 ) ( ( 0.02604166604578495 0 0.0651041641831398 ) ( 0 0.02604166604578495 0.1041666641831398 ) ) "textures/common/caulk" 0 0 0
+( 0 1 0 48 ) ( ( 0.02604166604578495 0 0.02604166604578495 ) ( 0 0.02604166604578495 0 ) ) "textures/common/caulk" 0 0 0
+( 1 0 0 4 ) ( ( 0.02604166604578495 0 0.078125 ) ( 0 0.02604166604578495 0.1041666641831398 ) ) "textures/common/caulk" 0 0 0
 ( 0 0 -1 448 ) ( ( 0.02604166604578495 0 0 ) ( 0 0.02604166604578495 0 ) ) "textures/common/caulk" 0 0 0
 ( 0 -1 0 -201 ) ( ( 0.02604166604578495 0 0 ) ( 0 0.02604166604578495 0 ) ) "textures/common/caulk" 0 0 0
 ( -1 0 0 -5 ) ( ( 0.02604166604578495 0 0 ) ( 0 0.02604166604578495 0.1041666641831398 ) ) "textures/common/caulk" 0 0 0
@@ -14532,10 +14532,10 @@ brushDef3
 {
 ( 0 0 1 -944 ) ( ( 0.02604166604578495 0 0 ) ( 0 0.02604166604578495 0 ) ) "textures/common/caulk" 0 0 0
 ( 1 0 0 -652 ) ( ( 0.02604166604578495 0 0 ) ( 0 0.02604166604578495 0 ) ) "textures/common/caulk" 0 0 0
-( 0 -1 0 -49.5 ) ( ( 0.02604166604578495 0 127.8958358764648 ) ( 0 0.02604166604578495 0 ) ) "textures/common/caulk" 0 0 0
+( 0 -1 0 -50 ) ( ( 0.02604166604578495 0 127.8958358764648 ) ( 0 0.02604166604578495 0 ) ) "textures/common/caulk" 0 0 0
 ( 0 0 -1 448 ) ( ( 0.02604166604578495 0 0 ) ( 0 0.02604166604578495 0 ) ) "textures/common/caulk" 0 0 0
 ( -1 0 0 454 ) ( ( 0.02604166604578495 0 0 ) ( 0 0.02604166604578495 0 ) ) "textures/common/caulk" 0 0 0
-( 0 1 0 48.5 ) ( ( 0.01302083302289248 0 0 ) ( 0 0.01302083302289248 0 ) ) "textures/darkmod/stone/brick/old_worn_blocks_004" 0 0 0
+( 0 1 0 48 ) ( ( 0.01302083302289248 0 0 ) ( 0 0.01302083302289248 0 ) ) "textures/darkmod/stone/brick/old_worn_blocks_004" 0 0 0
 }
 }
 // primitive 1196
@@ -20493,7 +20493,7 @@ brushDef3
 brushDef3
 {
 ( 0 0 1 -616 ) ( ( 0.006510416511446238 0 0 ) ( 0 0.006510416511446238 0.5208333134651184 ) ) "textures/darkmod/stone/brick/bt_basewall2" 0 0 0
-( 0 1 0 -88 ) ( ( 0.006510416511446238 0 4.114583015441895 ) ( 0 0.006510416511446238 2.135416507720947 ) ) "textures/darkmod/stone/brick/bt_basewall2" 0 0 0
+( 0 1 0 -92 ) ( ( 0.006510416511446238 0 4.114583015441895 ) ( 0 0.006510416511446238 2.135416507720947 ) ) "textures/darkmod/stone/brick/bt_basewall2" 0 0 0
 ( 1 0 0 -536 ) ( ( 0.006510416511446238 0 0 ) ( 0 0.006510416511446238 1.041646361351013 ) ) "textures/darkmod/stone/brick/bt_basewall2" 0 0 0
 ( 0 0 -1 608 ) ( ( -0.006696428637951612 0 2.250000715255737 ) ( 0 -0.006521739065647125 1.017383337020874 ) ) "textures/darkmod/stone/cobblestones/sidewalk_concrete" 0 0 0
 ( -1 0 0 -84 ) ( ( 0.006510416511446238 0 511.8958129882813 ) ( 0 0.006510416511446238 1.041646361351013 ) ) "textures/darkmod/stone/brick/bt_basewall2" 0 0 0
@@ -20509,7 +20509,7 @@ brushDef3
 ( 1 0 0 -456 ) ( ( 0.006510416511446238 0 0.1302083283662796 ) ( 0 0.006510416511446238 0 ) ) "textures/darkmod/stone/brick/bt_basewall2" 0 0 0
 ( 0 0 -1 608 ) ( ( -0.006696428637951612 0 2.250000715255737 ) ( 0 -0.006521739065647125 1.017383337020874 ) ) "textures/darkmod/stone/cobblestones/sidewalk_concrete" 0 0 0
 ( 0 -1 0 -201 ) ( ( 0.006510416511446238 0 511.951171875 ) ( 0 0.006510416511446238 0 ) ) "textures/darkmod/stone/brick/bt_basewall2" 0 0 0
-( -1 0 0 0 ) ( ( 0.006510416511446238 0 0 ) ( 0 0.006510416511446238 0 ) ) "textures/darkmod/stone/brick/bt_basewall2" 0 0 0
+( -1 0 0 -4 ) ( ( 0.006510416511446238 0 0 ) ( 0 0.006510416511446238 0 ) ) "textures/darkmod/stone/brick/bt_basewall2" 0 0 0
 }
 }
 // primitive 1690
@@ -20757,7 +20757,7 @@ brushDef3
 brushDef3
 {
 ( 0 0 1 -800 ) ( ( 0.01302083302289248 0 0 ) ( 0 0.01302083302289248 0.0520833320915699 ) ) "textures/darkmod/stone/brick/old_worn_blocks_004" 0 0 0
-( 0 1 0 -88 ) ( ( 0.01302083302289248 0 255.9479217529297 ) ( 0 0.01302083302289248 0 ) ) "textures/darkmod/stone/brick/old_worn_blocks_004" 0 0 0
+( 0 1 0 -96 ) ( ( 0.01302083302289248 0 255.921875 ) ( 0 0.01302083302289248 0 ) ) "textures/darkmod/stone/brick/old_worn_blocks_004" 0 0 0
 ( 1 0 0 -536 ) ( ( 0.01302083302289248 0 0.01302083302289248 ) ( 0 0.01302083302289248 0 ) ) "textures/darkmod/stone/brick/old_worn_blocks_004" 0 0 0
 ( 0 0 -1 616 ) ( ( 0.01302083302289248 0 0 ) ( 0 0.01302083302289248 255.9479217529297 ) ) "textures/darkmod/stone/brick/old_worn_blocks_004" 0 0 0
 ( 0 -1 0 12 ) ( ( 0.01302083302289248 0 0 ) ( 0 0.01302083302289248 0 ) ) "textures/darkmod/stone/brick/old_worn_blocks_004" 0 0 0
@@ -20771,7 +20771,7 @@ brushDef3
 ( 0 0 1 -808 ) ( ( 0.006510416511446238 0 0 ) ( 0 0.006510416511446238 0.5208333134651184 ) ) "textures/darkmod/stone/brick/bt_basewall2" 0 0 0
 ( 0 0 -1 800 ) ( ( 0.006818181835114956 6.071026459331108e-10 33.92727279663086 ) ( -5.960643645330777e-10 0.006944444496184587 220.1111145019531 ) ) "textures/darkmod/stone/cobblestones/sidewalk_concrete" 0 0 0
 ( 0 1 0 -96 ) ( ( 0.02083333395421505 0 9.583328247070313 ) ( 0 0.125 133.5 ) ) "textures/darkmod/stone/cobblestones/sidewalk_concrete" 0 0 0
-( -1 0 0 464 ) ( ( 0.003409090917557478 0 1.145454287528992 ) ( 0 0.0625 66.5 ) ) "textures/darkmod/stone/cobblestones/sidewalk_concrete" 0 0 0
+( -1 0 0 456 ) ( ( 0.003409090917557478 0 1.145454287528992 ) ( 0 0.0625 66.5 ) ) "textures/darkmod/stone/cobblestones/sidewalk_concrete" 0 0 0
 ( 0 -1 0 20 ) ( ( 0.01302083302289248 0 255.9739532470703 ) ( 0 0.01302083302289248 0.4166666567325592 ) ) "textures/darkmod/stone/brick/old_worn_blocks_004" 0 0 0
 ( 1 0 0 -528 ) ( ( 0.01302083302289248 0 0 ) ( 0 0.01302083302289248 0.3125 ) ) "textures/darkmod/stone/brick/old_worn_blocks_004" 0 0 0
 }
@@ -21302,6 +21302,212 @@ brushDef3
 ( 0 0 -1 688 ) ( ( 0.003255208203982981 0 0 ) ( 0 0.003255208203982981 0.0520833320915699 ) ) "textures/common/tdm_nodrawsolid_metal" 0 0 0
 ( 0 -1 0 -48 ) ( ( 0.003255208203982981 0 0 ) ( 0 0.003255208203982981 0 ) ) "textures/common/tdm_nodrawsolid_metal" 0 0 0
 ( -1 0 0 456 ) ( ( 0.003255208203982981 0 0 ) ( 0 0.003255208203982981 0 ) ) "textures/common/tdm_nodrawsolid_metal" 0 0 0
+}
+}
+// primitive 1755
+{
+brushDef3
+{
+( 0 0 1 -608 ) ( ( 0.02604166563186385 0 127.8958333358169 ) ( 0 0.02604166563186385 0 ) ) "textures/common/nodraw" 0 0 0
+( 0 1 0 -92 ) ( ( 0.02604166563186385 0 0 ) ( 0 0.02604166563186385 0 ) ) "textures/common/nodraw" 0 0 0
+( 1 0 0 -456 ) ( ( 0.02604166563186385 0 127.8958358764648 ) ( 0 0.02604166563186385 0.625 ) ) "textures/editor/visportal" 0 0 0
+( 0 0 -1 448 ) ( ( 0.02604166563186385 0 127.8958333358169 ) ( 0 0.02604166563186385 0 ) ) "textures/common/nodraw" 0 0 0
+( 0 -1 0 -48 ) ( ( 0.02604166563186385 0 0 ) ( 0 0.02604166563186385 0 ) ) "textures/common/nodraw" 0 0 0
+( -1 0 0 448 ) ( ( 0.02604166563186385 0 0.1041666641831398 ) ( 0 0.02604166563186385 127.1666641235352 ) ) "textures/common/nodraw" 0 0 0
+}
+}
+// primitive 1756
+{
+brushDef3
+{
+( 0 0 1 -608 ) ( ( 0.02604166563186385 0 0 ) ( 0 0.02604166563186385 126.125 ) ) "textures/common/nodraw" 0 0 0
+( 0 1 0 -92 ) ( ( 0.02604166563186385 0 1.87499988079071 ) ( 0 0.02604166563186385 0 ) ) "textures/common/nodraw" 0 0 0
+( 1 0 0 4 ) ( ( 0.02604166563186385 0 0 ) ( 0 0.02604166563186385 0 ) ) "textures/editor/visportal" 0 0 0
+( 0 0 -1 448 ) ( ( 0.02604166563186385 0 0 ) ( 0 0.02604166563186385 1.87499988079071 ) ) "textures/common/nodraw" 0 0 0
+( 0 -1 0 -52.5 ) ( ( 0.02604166563186385 0 125.9166717529297 ) ( 0 0.02604166563186385 0 ) ) "textures/common/nodraw" 0 0 0
+( -1 0 0 -12 ) ( ( 0.02604166563186385 0 0 ) ( 0 0.02604166563186385 0 ) ) "textures/common/nodraw" 0 0 0
+}
+}
+// primitive 1757
+{
+brushDef3
+{
+( 0 0 1 -768 ) ( ( 0.02604166563186385 0 0 ) ( 0 0.02604166563186385 0.1822916567325592 ) ) "textures/common/nodraw" 0 0 0
+( 0 1 0 -89 ) ( ( 0.02604166563186385 0 1.067708253860474 ) ( 0 0.02604166563186385 0 ) ) "textures/editor/visportal" 0 0 0
+( 1 0 0 -600 ) ( ( 0.02604166563186385 0 0.02604166604578495 ) ( 0 0.02604166563186385 0 ) ) "textures/common/nodraw" 0 0 0
+( 0 0 -1 616 ) ( ( 0.02604166563186385 0 0 ) ( 0 0.02604166563186385 0 ) ) "textures/common/nodraw" 0 0 0
+( 0 -1 0 88 ) ( ( 0.02604166563186385 0 0.1822916567325592 ) ( 0 0.02604166563186385 127.1666666865349 ) ) "textures/common/nodraw" 0 0 0
+( -1 0 0 536 ) ( ( 0.02604166563186385 0 0 ) ( 0 0.02604166563186385 0 ) ) "textures/common/nodraw" 0 0 0
+}
+}
+// primitive 1758
+{
+brushDef3
+{
+( 0 0 1 -768 ) ( ( 0.02604166563186385 0 0 ) ( 0 0.02604166563186385 0 ) ) "textures/common/nodraw" 0 0 0
+( 0 1 0 -96 ) ( ( 0.02604166563186385 0 0 ) ( 0 0.02604166563186385 127.8958333358169 ) ) "textures/editor/visportal" 0 0 0
+( 1 0 0 -524 ) ( ( 0.02604166563186385 0 0 ) ( 0 0.02604166563186385 0 ) ) "textures/common/nodraw" 0 0 0
+( 0 0 -1 616 ) ( ( 0.02604166563186385 0 0 ) ( 0 0.02604166563186385 0.0520833320915699 ) ) "textures/common/nodraw" 0 0 0
+( 0 -1 0 88 ) ( ( 0.02604166563186385 0 0 ) ( 0 0.02604166563186385 0 ) ) "textures/common/nodraw" 0 0 0
+( -1 0 0 456 ) ( ( 0.02604166563186385 0 0 ) ( 0 0.02604166563186385 0 ) ) "textures/common/nodraw" 0 0 0
+}
+}
+// primitive 1759
+{
+brushDef3
+{
+( 0 0 1 -800 ) ( ( 0.01302083302289248 0 0 ) ( 0 0.01302083302289248 0 ) ) "textures/darkmod/stone/brick/old_worn_blocks_004" 0 0 0
+( 0 1 0 -96 ) ( ( 0.01302083302289248 0 0 ) ( 0 0.01302083302289248 0 ) ) "textures/darkmod/stone/brick/old_worn_blocks_004" 0 0 0
+( 1 0 0 -524 ) ( ( 0.01302083302289248 0 0 ) ( 0 0.01302083302289248 0 ) ) "textures/darkmod/stone/brick/old_worn_blocks_004" 0 0 0
+( 0 0 -1 768 ) ( ( 0.01302083302289248 0 0 ) ( 0 0.01302083302289248 0 ) ) "textures/darkmod/stone/brick/old_worn_blocks_004" 0 0 0
+( 0 -1 0 88 ) ( ( 0.01302083302289248 0 0 ) ( 0 0.01302083302289248 0 ) ) "textures/darkmod/stone/brick/old_worn_blocks_004" 0 0 0
+( -1 0 0 456 ) ( ( 0.01302083302289248 0 0 ) ( 0 0.01302083302289248 0 ) ) "textures/darkmod/stone/brick/old_worn_blocks_004" 0 0 0
+}
+}
+// primitive 1760
+{
+brushDef3
+{
+( 0 0 1 -928 ) ( ( 0.01302083302289248 0 0 ) ( 0 0.01302083302289248 0 ) ) "textures/darkmod/stone/brick/old_worn_blocks_004" 0 0 0
+( 0 1 0 -96 ) ( ( 0.01302083302289248 0 0 ) ( 0 0.01302083302289248 0 ) ) "textures/darkmod/stone/brick/old_worn_blocks_004" 0 0 0
+( 1 0 0 -456 ) ( ( 0.01302083302289248 0 0 ) ( 0 0.01302083302289248 0 ) ) "textures/darkmod/stone/brick/old_worn_blocks_004" 0 0 0
+( 0 0 -1 776 ) ( ( 0.01302083302289248 0 0 ) ( 0 0.01302083302289248 0 ) ) "textures/darkmod/stone/brick/old_worn_blocks_004" 0 0 0
+( 0 -1 0 -48 ) ( ( 0.01302083302289248 0 0 ) ( 0 0.01302083302289248 0 ) ) "textures/darkmod/stone/brick/old_worn_blocks_004" 0 0 0
+( -1 0 0 448 ) ( ( 0.01302083302289248 0 0 ) ( 0 0.01302083302289248 0 ) ) "textures/darkmod/stone/brick/old_worn_blocks_004" 0 0 0
+}
+}
+// primitive 1761
+{
+brushDef3
+{
+( 0 0 1 -936 ) ( ( 0.006510416511446238 0 0 ) ( 0 0.01302083302289248 0 ) ) "textures/darkmod/stone/brick/tiling_1d/bt_borderwall1_trim" 0 0 0
+( 0 1 0 -224 ) ( ( 0.006510416511446238 0 0.01302083302289248 ) ( 0 0.01302083302289248 255.8958282470703 ) ) "textures/darkmod/stone/brick/tiling_1d/bt_borderwall1_trim" 0 0 0
+( 1 0 0 -600 ) ( ( 0.006510416511446238 0 0.0651041641831398 ) ( 0 0.01302083302289248 255.8958282470703 ) ) "textures/darkmod/stone/brick/tiling_1d/bt_borderwall1_trim" 0 0 0
+( 0 0 -1 928 ) ( ( -0.006696428637951612 0 2.256697177886963 ) ( 0 -0.006521739065647125 1.017382979393005 ) ) "textures/darkmod/stone/cobblestones/sidewalk_concrete" 0 0 0
+( 0 -1 0 -47.5 ) ( ( 0.006510416511446238 0 0.0781249925494194 ) ( 0 0.01302083302289248 255.8958282470703 ) ) "textures/darkmod/stone/brick/tiling_1d/bt_borderwall1_trim" 0 0 0
+( -1 0 0 456 ) ( ( 0.006510416511446238 0 511.9739583339542 ) ( 0 0.01302083302289248 255.8958282470703 ) ) "textures/darkmod/stone/brick/tiling_1d/bt_borderwall1_trim" 0 0 0
+}
+}
+// primitive 1762
+{
+brushDef3
+{
+( 0 0 1 -928 ) ( ( 0.01302083281593192 0 0 ) ( 0 0.01302083281593192 0 ) ) "textures/common/nodraw" 0 0 0
+( 0 1 0 -104 ) ( ( 0.01302083281593192 0 0 ) ( 0 0.01302083281593192 127.8958282470703 ) ) "textures/editor/visportal" 0 0 0
+( 1 0 0 -600 ) ( ( 0.01302083281593192 0 0 ) ( 0 0.01302083281593192 0 ) ) "textures/common/nodraw" 0 0 0
+( 0 0 -1 776 ) ( ( 0.01302083281593192 0 0 ) ( 0 0.01302083281593192 0.0520833320915699 ) ) "textures/common/nodraw" 0 0 0
+( 0 -1 0 96 ) ( ( 0.01302083281593192 0 0 ) ( 0 0.01302083281593192 255.8958333358169 ) ) "textures/common/nodraw" 0 0 0
+( -1 0 0 536 ) ( ( 0.01302083281593192 0 0 ) ( 0 0.01302083281593192 0 ) ) "textures/common/nodraw" 0 0 0
+}
+}
+// primitive 1763
+{
+brushDef3
+{
+( 0 0 1 -936 ) ( ( 0.006510416511446238 0 0 ) ( 0 0.01302083302289248 0.0520833320915699 ) ) "textures/darkmod/stone/brick/tiling_1d/bt_borderwall1_trim" 0 0 0
+( 0 1 0 -224 ) ( ( 0.006510416511446238 0 511.9739583339542 ) ( 0 0.01302083302289248 253.8125 ) ) "textures/darkmod/stone/brick/tiling_1d/bt_borderwall1_trim" 0 0 0
+( 1 0 0 8 ) ( ( 0.006510416511446238 0 0 ) ( 0 0.01302083302289248 253.8125 ) ) "textures/darkmod/stone/brick/tiling_1d/bt_borderwall1_trim" 0 0 0
+( 0 0 -1 928 ) ( ( -0.006696428637951612 0 2.250000715255737 ) ( 0 -0.006521739065647125 1.043469905853271 ) ) "textures/darkmod/stone/cobblestones/sidewalk_concrete" 0 0 0
+( 0 -1 0 -32 ) ( ( 0.006510416511446238 0 511.9739379882813 ) ( 0 0.01302083302289248 253.8125 ) ) "textures/darkmod/stone/brick/tiling_1d/bt_borderwall1_trim" 0 0 0
+( -1 0 0 -156 ) ( ( 0.006510416511446238 0 0 ) ( 0 0.01302083302289248 253.8125 ) ) "textures/darkmod/stone/brick/tiling_1d/bt_borderwall1_trim" 0 0 0
+}
+}
+// primitive 1764
+{
+brushDef3
+{
+( 0 0 1 -928 ) ( ( 0.01302083281593192 0 0.0520833358168602 ) ( 0 0.01302083281593192 0 ) ) "textures/common/nodraw" 0 0 0
+( 0 1 0 -92 ) ( ( 0.01302083281593192 0 0 ) ( 0 0.01302083281593192 0 ) ) "textures/editor/visportal" 0 0 0
+( 1 0 0 84 ) ( ( 0.01302083281593192 0 0 ) ( 0 0.01302083281593192 0 ) ) "textures/common/nodraw" 0 0 0
+( 0 0 -1 776 ) ( ( 0.01302083281593192 0 255.9479166679084 ) ( 0 0.01302083281593192 0 ) ) "textures/common/nodraw" 0 0 0
+( 0 -1 0 88 ) ( ( 0.01302083281593192 0 0 ) ( 0 0.01302083281593192 0 ) ) "textures/common/nodraw" 0 0 0
+( -1 0 0 -156 ) ( ( 0.01302083281593192 0 0 ) ( 0 0.01302083281593192 0 ) ) "textures/common/nodraw" 0 0 0
+}
+}
+// primitive 1765
+{
+brushDef3
+{
+( 0 1 0 -224 ) ( ( 0.01302083302289248 0 5.729166507720947 ) ( 0 0.01302083302289248 0 ) ) "textures/darkmod/stone/brick/old_worn_blocks_004" 0 0 0
+( 1 0 0 -456 ) ( ( 0.01302083302289248 0 0 ) ( 0 0.01302083302289248 0 ) ) "textures/darkmod/stone/brick/old_worn_blocks_004" 0 0 0
+( 0 0 -1 920 ) ( ( 0.01302083302289248 0 0 ) ( 0 0.01302083302289248 5.729166507720947 ) ) "textures/darkmod/stone/brick/old_worn_blocks_004" 0 0 0
+( 0 -1 0 -56 ) ( ( 0.01302083302289248 0 250.2708435058594 ) ( 0 0.01302083302289248 0 ) ) "textures/darkmod/stone/brick/old_worn_blocks_004" 0 0 0
+( -1 0 0 432 ) ( ( 0.01302083302289248 0 0 ) ( 0 0.01302083302289248 0 ) ) "textures/darkmod/stone/brick/old_worn_blocks_004" 0 0 0
+( 0 -0.7525767087936401 0.6585046052932739 -663.7726144790649 ) ( ( 0.01302083302289248 0 250.2708435058594 ) ( 0 0.01302083302289248 0 ) ) "textures/darkmod/stone/brick/old_worn_blocks_004" 0 0 0
+( 0 0.7525767087936401 0.6585046052932739 -790.205493927002 ) ( ( 0.01302083302289248 0 5.729166507720947 ) ( 0 0.01302083302289248 0 ) ) "textures/darkmod/stone/brick/old_worn_blocks_004" 0 0 0
+}
+}
+// primitive 1766
+{
+brushDef3
+{
+( 0 1 0 -224 ) ( ( 0.01302083302289248 0 0 ) ( 0 0.01302083302289248 0 ) ) "textures/darkmod/stone/brick/old_worn_blocks_004" 0 0 0
+( 1 0 0 -16 ) ( ( 0.01302083302289248 0 0 ) ( 0 0.01302083302289248 0 ) ) "textures/darkmod/stone/brick/old_worn_blocks_004" 0 0 0
+( 0 0 -1 920 ) ( ( 0.01302083302289248 0 0 ) ( 0 0.01302083302289248 0 ) ) "textures/darkmod/stone/brick/old_worn_blocks_004" 0 0 0
+( 0 -1 0 -56 ) ( ( 0.01302083302289248 0 0 ) ( 0 0.01302083302289248 0 ) ) "textures/darkmod/stone/brick/old_worn_blocks_004" 0 0 0
+( -1 0 0 -8 ) ( ( 0.01302083302289248 0 0 ) ( 0 0.01302083302289248 0 ) ) "textures/darkmod/stone/brick/old_worn_blocks_004" 0 0 0
+( 0 -0.7525767087936401 0.6585046052932739 -663.7726411819458 ) ( ( 0.01302083302289248 0 0 ) ( 0 0.01302083302289248 0 ) ) "textures/darkmod/stone/brick/old_worn_blocks_004" 0 0 0
+( 0 0.7525767087936401 0.6585046052932739 -790.2055282592773 ) ( ( 0.01302083302289248 0 0 ) ( 0 0.01302083302289248 0 ) ) "textures/darkmod/stone/brick/old_worn_blocks_004" 0 0 0
+}
+}
+// primitive 1767
+{
+brushDef3
+{
+( 0 0 1 -776 ) ( ( 0.01302083302289248 0 0 ) ( 0 0.01302083302289248 0 ) ) "textures/darkmod/stone/brick/old_worn_blocks_004" 0 0 0
+( 0 1 0 -90 ) ( ( 0.01302083302289248 0 0 ) ( 0 0.01302083302289248 0 ) ) "textures/darkmod/stone/brick/old_worn_blocks_004" 0 0 0
+( 1 0 0 72 ) ( ( 0.01302083302289248 0 0 ) ( 0 0.01302083302289248 255.8958435058594 ) ) "textures/darkmod/stone/brick/old_worn_blocks_004" 0 0 0
+( 0 0 -1 616 ) ( ( 0.01302083302289248 0 0 ) ( 0 0.01302083302289248 0 ) ) "textures/darkmod/stone/brick/old_worn_blocks_004" 0 0 0
+( 0 -1 0 26 ) ( ( 0.01302083302289248 0 0 ) ( 0 0.01302083302289248 0 ) ) "textures/darkmod/stone/brick/old_worn_blocks_004" 0 0 0
+( -1 0 0 -84 ) ( ( 0.01302083302289248 0 0 ) ( 0 0.01302083302289248 0 ) ) "textures/darkmod/stone/brick/old_worn_blocks_004" 0 0 0
+}
+}
+// primitive 1768
+{
+brushDef3
+{
+( 0 0 1 -776 ) ( ( 0.01302083302289248 0 0 ) ( 0 0.01302083302289248 8.85418701171875 ) ) "textures/darkmod/stone/brick/old_worn_blocks_004" 0 0 0
+( 0 1 0 -26 ) ( ( 0.01302083302289248 0 -0.5989583134651184 ) ( 0 0.01302083302289248 255.7916717529297 ) ) "textures/darkmod/stone/brick/old_worn_blocks_004" 0 0 0
+( 1 0 0 72 ) ( ( 0.01302083302289248 0 0 ) ( 0 0.01302083302289248 255.8958435058594 ) ) "textures/darkmod/stone/brick/old_worn_blocks_004" 0 0 0
+( 0 -1 0 12 ) ( ( 0.01302083302289248 0 0 ) ( 0 0.01302083302289248 255.7916717529297 ) ) "textures/darkmod/stone/brick/old_worn_blocks_004" 0 0 0
+( -1 0 0 -84 ) ( ( 0.01302083302289248 0 0 ) ( 0 0.01302083302289248 255.7916717529297 ) ) "textures/darkmod/stone/brick/old_worn_blocks_004" 0 0 0
+( 0 0 -1 616 ) ( ( 0.01302083302289248 0 0 ) ( 0 0.01302083302289248 255.7916717529297 ) ) "textures/darkmod/stone/brick/old_worn_blocks_004" 0 0 0
+}
+}
+// primitive 1769
+{
+brushDef3
+{
+( 0 0 1 -768 ) ( ( 0.01302083302289248 0 255.8958282470703 ) ( 0 0.01302083302289248 5.9375 ) ) "textures/darkmod/stone/brick/old_worn_blocks_004" 0 0 0
+( 0 1 0 -104 ) ( ( 0.01302083302289248 0 250.0625 ) ( 0 0.01302083302289248 0 ) ) "textures/darkmod/stone/brick/old_worn_blocks_004" 0 0 0
+( 1 0 0 0 ) ( ( 0.01302083302289248 0 0 ) ( 0 0.01302083302289248 0 ) ) "textures/darkmod/stone/brick/old_worn_blocks_004" 0 0 0
+( 0 0 -1 616 ) ( ( 0.01302083302289248 0 255.4791717529297 ) ( 0 0.01302083302289248 250.0625 ) ) "textures/darkmod/stone/brick/old_worn_blocks_004" 0 0 0
+( 0 -1 0 -48 ) ( ( 0.01302083302289248 0 5.9375 ) ( 0 0.01302083302289248 0 ) ) "textures/darkmod/stone/brick/old_worn_blocks_004" 0 0 0
+( -1 0 0 -8 ) ( ( 0.01302083302289248 0 0.104156494140625 ) ( 0 0.01302083302289248 0 ) ) "textures/darkmod/stone/brick/old_worn_blocks_004" 0 0 0
+}
+}
+// primitive 1770
+{
+brushDef3
+{
+( 0 0 1 -768 ) ( ( 0.01302083281593192 0 0 ) ( 0 0.01302083281593192 255.8958282470703 ) ) "textures/common/nodraw" 0 0 0
+( 0 1 0 -90 ) ( ( 0.01302083281593192 0 0 ) ( 0 0.01302083281593192 0 ) ) "textures/editor/visportal" 0 0 0
+( 1 0 0 84 ) ( ( 0.01302083281593192 0 0 ) ( 0 0.01302083281593192 0 ) ) "textures/common/nodraw" 0 0 0
+( 0 0 -1 616 ) ( ( 0.01302083281593192 0 0 ) ( 0 0.01302083281593192 0.02604166604578495 ) ) "textures/common/nodraw" 0 0 0
+( 0 -1 0 88 ) ( ( 0.01302083281593192 0 255.8958282470703 ) ( 0 0.01302083281593192 253.7864532470703 ) ) "textures/common/nodraw" 0 0 0
+( -1 0 0 -156 ) ( ( 0.01302083281593192 0 0 ) ( 0 0.01302083281593192 0 ) ) "textures/common/nodraw" 0 0 0
+}
+}
+// primitive 1771
+{
+brushDef3
+{
+( 0 0 1 -768 ) ( ( 0.01302083281593192 0 0 ) ( 0 0.01302083281593192 0 ) ) "textures/common/nodraw" 0 0 0
+( 0 1 0 -90 ) ( ( 0.01302083281593192 0 0 ) ( 0 0.01302083281593192 0 ) ) "textures/editor/visportal" 0 0 0
+( 1 0 0 8 ) ( ( 0.01302083281593192 0 0 ) ( 0 0.01302083281593192 0 ) ) "textures/common/nodraw" 0 0 0
+( 0 0 -1 616 ) ( ( 0.01302083281593192 0 0 ) ( 0 0.01302083281593192 0 ) ) "textures/common/nodraw" 0 0 0
+( 0 -1 0 88 ) ( ( 0.01302083281593192 0 0 ) ( 0 0.01302083281593192 0 ) ) "textures/common/nodraw" 0 0 0
+( -1 0 0 -72 ) ( ( 0.01302083281593192 0 0 ) ( 0 0.01302083281593192 0 ) ) "textures/common/nodraw" 0 0 0
 }
 }
 }
@@ -42176,25 +42382,6 @@ brushDef3
 // entity 1569
 {
 "classname" "func_static"
-"name" "func_static_821"
-"model" "func_static_821"
-"origin" "-4 32 692"
-// primitive 0
-{
-brushDef3
-{
-( 0 0 1 -76 ) ( ( 0.01302083302289248 0 255.8958282470703 ) ( 0 0.01302083302289248 5.9375 ) ) "textures/darkmod/stone/brick/old_worn_blocks_004" 0 0 0
-( 0 1 0 -72 ) ( ( 0.01302083302289248 0 250.0625 ) ( 0 0.01302083302289248 0 ) ) "textures/darkmod/stone/brick/old_worn_blocks_004" 0 0 0
-( 1 0 0 -4 ) ( ( 0.01302083302289248 0 255.8958282470703 ) ( 0 0.01302083302289248 0 ) ) "textures/darkmod/stone/brick/old_worn_blocks_004" 0 0 0
-( 0 0 -1 -76 ) ( ( 0.01302083302289248 0 255.4791717529297 ) ( 0 0.01302083302289248 250.0625 ) ) "textures/darkmod/stone/brick/old_worn_blocks_004" 0 0 0
-( 0 -1 0 -72 ) ( ( 0.01302083302289248 0 5.9375 ) ( 0 0.01302083302289248 0 ) ) "textures/darkmod/stone/brick/old_worn_blocks_004" 0 0 0
-( -1 0 0 -4 ) ( ( 0.01302083302289248 0 0.104156494140625 ) ( 0 0.01302083302289248 0 ) ) "textures/darkmod/stone/brick/old_worn_blocks_004" 0 0 0
-}
-}
-}
-// entity 1570
-{
-"classname" "func_static"
 "name" "func_static_805"
 "model" "func_static_805"
 "origin" "-50 -16 516"
@@ -42477,7 +42664,7 @@ brushDef3
 }
 }
 }
-// entity 1571
+// entity 1570
 {
 "classname" "func_static"
 "name" "func_static_872"
@@ -42496,7 +42683,7 @@ brushDef3
 }
 }
 }
-// entity 1572
+// entity 1571
 {
 "classname" "func_static"
 "name" "func_static_873"
@@ -42793,7 +42980,7 @@ brushDef3
 }
 }
 }
-// entity 1573
+// entity 1572
 {
 "classname" "func_static"
 "name" "func_static_874"
@@ -42812,7 +42999,7 @@ brushDef3
 }
 }
 }
-// entity 1574
+// entity 1573
 {
 "classname" "func_static"
 "name" "func_static_841"
@@ -42831,38 +43018,7 @@ brushDef3
 }
 }
 }
-// entity 1575
-{
-"classname" "func_static"
-"name" "func_static_154"
-"model" "func_static_154"
-"origin" "-78 50 696"
-// primitive 0
-{
-brushDef3
-{
-( 0 0 1 -80 ) ( ( 0.01302083302289248 0 0 ) ( 0 0.01302083302289248 0 ) ) "textures/darkmod/stone/brick/old_worn_blocks_004" 0 0 0
-( 0 1 0 -38 ) ( ( 0.01302083302289248 0 0 ) ( 0 0.01302083302289248 0 ) ) "textures/darkmod/stone/brick/old_worn_blocks_004" 0 0 0
-( 1 0 0 -6 ) ( ( 0.01302083302289248 0 0 ) ( 0 0.01302083302289248 255.8958435058594 ) ) "textures/darkmod/stone/brick/old_worn_blocks_004" 0 0 0
-( 0 0 -1 -80 ) ( ( 0.01302083302289248 0 0 ) ( 0 0.01302083302289248 0 ) ) "textures/darkmod/stone/brick/old_worn_blocks_004" 0 0 0
-( 0 -1 0 -24 ) ( ( 0.01302083302289248 0 0 ) ( 0 0.01302083302289248 0 ) ) "textures/darkmod/stone/brick/old_worn_blocks_004" 0 0 0
-( -1 0 0 -6 ) ( ( 0.01302083302289248 0 0 ) ( 0 0.01302083302289248 0 ) ) "textures/darkmod/stone/brick/old_worn_blocks_004" 0 0 0
-}
-}
-// primitive 1
-{
-brushDef3
-{
-( 0 0 1 -80 ) ( ( 0.01302083302289248 0 0 ) ( 0 0.01302083302289248 8.85418701171875 ) ) "textures/darkmod/stone/brick/old_worn_blocks_004" 0 0 0
-( 0 1 0 24 ) ( ( 0.01302083302289248 0 -0.5989583134651184 ) ( 0 0.01302083302289248 255.7916717529297 ) ) "textures/darkmod/stone/brick/old_worn_blocks_004" 0 0 0
-( 1 0 0 -6 ) ( ( 0.01302083302289248 0 0 ) ( 0 0.01302083302289248 255.8958435058594 ) ) "textures/darkmod/stone/brick/old_worn_blocks_004" 0 0 0
-( 0 -1 0 -38 ) ( ( 0.01302083302289248 0 0 ) ( 0 0.01302083302289248 255.7916717529297 ) ) "textures/darkmod/stone/brick/old_worn_blocks_004" 0 0 0
-( -1 0 0 -6 ) ( ( 0.01302083302289248 0 0 ) ( 0 0.01302083302289248 255.7916717529297 ) ) "textures/darkmod/stone/brick/old_worn_blocks_004" 0 0 0
-( 0 0 -1 -80 ) ( ( 0.01302083302289248 0 0 ) ( 0 0.01302083302289248 255.7916717529297 ) ) "textures/darkmod/stone/brick/old_worn_blocks_004" 0 0 0
-}
-}
-}
-// entity 1576
+// entity 1574
 {
 "classname" "func_static"
 "name" "func_static_837"
@@ -43437,7 +43593,7 @@ brushDef3
 }
 }
 }
-// entity 1577
+// entity 1575
 {
 "classname" "atdm:mover_door"
 "name" "atdm_mover_door_4"
@@ -43465,7 +43621,7 @@ brushDef3
 }
 }
 }
-// entity 1578
+// entity 1576
 {
 "classname" "atdm:mover_door"
 "name" "atdm_mover_door_5"
@@ -43493,7 +43649,7 @@ brushDef3
 }
 }
 }
-// entity 1579
+// entity 1577
 {
 "classname" "func_static"
 "name" "func_static_840"
@@ -43536,13 +43692,13 @@ brushDef3
 }
 }
 }
-// entity 1580
+// entity 1578
 {
 "classname" "info_locationseparator"
 "name" "info_locationseparator_48"
 "origin" "224 94 510"
 }
-// entity 1581
+// entity 1579
 {
 "classname" "light"
 "name" "light_14"
@@ -43551,19 +43707,19 @@ brushDef3
 "light_radius" "136 120 136"
 "origin" "240 16 568"
 }
-// entity 1582
+// entity 1580
 {
 "classname" "info_locationseparator"
 "name" "info_locationseparator_49"
 "origin" "296 -122 510"
 }
-// entity 1583
+// entity 1581
 {
 "classname" "info_location"
 "name" "location_warehouse_office"
 "origin" "378 -114 544"
 }
-// entity 1584
+// entity 1582
 {
 "classname" "func_static"
 "name" "func_static_595"
@@ -43582,7 +43738,7 @@ brushDef3
 }
 }
 }
-// entity 1585
+// entity 1583
 {
 "classname" "func_static"
 "name" "func_static_2487"
@@ -43590,7 +43746,7 @@ brushDef3
 "origin" "300.25 84.0424 537"
 "rotation" "-1 0 0 0 0 -1 0 -1 0"
 }
-// entity 1586
+// entity 1584
 {
 "classname" "atdm:switch_rotate_lever"
 "name" "lever"
@@ -43601,7 +43757,7 @@ brushDef3
 "rotation" "1 0 0 0 -0.745451 0.666561 0 -0.666561 -0.745451"
 "target0" "atdm_mover_door_4"
 }
-// entity 1587
+// entity 1585
 {
 "classname" "func_static"
 "name" "func_static_2488"
@@ -43609,7 +43765,7 @@ brushDef3
 "origin" "300.11 86.7924 454.644"
 "rotation" "0 0 -1 -1 0 0 0 1 0"
 }
-// entity 1588
+// entity 1586
 {
 "classname" "func_static"
 "name" "func_static_596"
@@ -43617,7 +43773,7 @@ brushDef3
 "origin" "222.71 205.762 776.022"
 "rotation" "0 -1 0 1 0 0 0 0 1"
 }
-// entity 1589
+// entity 1587
 {
 "classname" "func_static"
 "name" "func_static_2849"
@@ -43959,7 +44115,7 @@ patchDef2
 }
 }
 }
-// entity 1590
+// entity 1588
 {
 "classname" "func_static"
 "name" "func_static_2855"
@@ -44177,7 +44333,7 @@ patchDef2
 }
 }
 }
-// entity 1591
+// entity 1589
 {
 "classname" "func_static"
 "name" "func_static_602"
@@ -44519,7 +44675,7 @@ patchDef2
 }
 }
 }
-// entity 1592
+// entity 1590
 {
 "classname" "func_static"
 "name" "func_static_603"
@@ -44737,7 +44893,7 @@ patchDef2
 }
 }
 }
-// entity 1593
+// entity 1591
 {
 "classname" "func_static"
 "name" "func_static_820"
@@ -44955,7 +45111,7 @@ patchDef2
 }
 }
 }
-// entity 1594
+// entity 1592
 {
 "classname" "func_static"
 "name" "func_static_842"
@@ -45297,7 +45453,7 @@ patchDef2
 }
 }
 }
-// entity 1595
+// entity 1593
 {
 "classname" "func_static"
 "name" "func_static_845"
@@ -45305,7 +45461,7 @@ patchDef2
 "origin" "415.867 8 658.633"
 "rotation" "-1.11022e-16 0 -1 0 1 0 1 0 -1.11022e-16"
 }
-// entity 1596
+// entity 1594
 {
 "classname" "func_static"
 "name" "func_static_846"
@@ -45523,7 +45679,7 @@ patchDef3
 }
 }
 }
-// entity 1597
+// entity 1595
 {
 "classname" "func_static"
 "name" "func_static_844"
@@ -45674,7 +45830,7 @@ brushDef3
 }
 }
 }
-// entity 1598
+// entity 1596
 {
 "classname" "func_static"
 "name" "func_static_847"
@@ -45682,7 +45838,7 @@ brushDef3
 "origin" "415.867 56 658.633"
 "rotation" "-1.11022e-16 0 -1 0 1 0 1 0 -1.11022e-16"
 }
-// entity 1599
+// entity 1597
 {
 "classname" "func_static"
 "name" "func_static_848"
@@ -45833,7 +45989,7 @@ brushDef3
 }
 }
 }
-// entity 1600
+// entity 1598
 {
 "classname" "func_static"
 "name" "func_static_849"
@@ -46051,7 +46207,7 @@ patchDef3
 }
 }
 }
-// entity 1601
+// entity 1599
 {
 "classname" "func_static"
 "name" "func_static_851"
@@ -46059,7 +46215,7 @@ patchDef3
 "origin" "7.07 24.27 669.295"
 "rotation" "0 -0.274005 -0.961728 0 0.961728 -0.274005 1 0 0"
 }
-// entity 1602
+// entity 1600
 {
 "classname" "func_static"
 "name" "func_static_850"
@@ -46210,7 +46366,7 @@ brushDef3
 }
 }
 }
-// entity 1603
+// entity 1601
 {
 "classname" "func_static"
 "name" "func_static_1383"
@@ -46361,7 +46517,7 @@ brushDef3
 }
 }
 }
-// entity 1604
+// entity 1602
 {
 "classname" "func_static"
 "name" "func_static_852"
@@ -46369,7 +46525,7 @@ brushDef3
 "origin" "63.255 24.7532 719.3"
 "rotation" "0 0.274005 -0.961728 0 -0.961728 -0.274005 -1 0 0"
 }
-// entity 1605
+// entity 1603
 {
 "classname" "func_static"
 "name" "func_static_853"
@@ -46520,7 +46676,7 @@ brushDef3
 }
 }
 }
-// entity 1606
+// entity 1604
 {
 "classname" "func_static"
 "name" "func_static_854"
@@ -46528,7 +46684,7 @@ brushDef3
 "origin" "7.0701 72.2699 669.295"
 "rotation" "0 -0.274005 -0.961728 0 0.961728 -0.274005 1 0 0"
 }
-// entity 1607
+// entity 1605
 {
 "classname" "func_static"
 "name" "func_static_855"
@@ -46679,7 +46835,7 @@ brushDef3
 }
 }
 }
-// entity 1608
+// entity 1606
 {
 "classname" "func_static"
 "name" "func_static_856"
@@ -46687,7 +46843,7 @@ brushDef3
 "origin" "63.255 72.7532 719.3"
 "rotation" "0 0.274005 -0.961728 0 -0.961728 -0.274005 -1 0 0"
 }
-// entity 1609
+// entity 1607
 {
 "classname" "func_static"
 "name" "func_static_862"
@@ -46695,7 +46851,7 @@ brushDef3
 "origin" "185.097 -0.577 808"
 "rotation" "-0.707107 0.707107 0 -0.707107 -0.707107 0 0 0 1"
 }
-// entity 1610
+// entity 1608
 {
 "classname" "func_static"
 "name" "func_static_859"
@@ -46703,7 +46859,7 @@ brushDef3
 "origin" "249.23 -17.6571 808"
 "rotation" "-0.707107 -0.707107 0 0.707107 -0.707107 0 0 0 1"
 }
-// entity 1611
+// entity 1609
 {
 "classname" "func_static"
 "name" "func_static_857"
@@ -48358,7 +48514,7 @@ brushDef3
 }
 }
 }
-// entity 1612
+// entity 1610
 {
 "classname" "func_static"
 "name" "func_static_858"
@@ -50013,7 +50169,7 @@ brushDef3
 }
 }
 }
-// entity 1613
+// entity 1611
 {
 "classname" "func_static"
 "name" "func_static_868"
@@ -50021,7 +50177,7 @@ brushDef3
 "origin" "77.8801 -129.151 741.729"
 "rotation" "0 1 0 0 0 -1 -1 0 0"
 }
-// entity 1614
+// entity 1612
 {
 "classname" "func_static"
 "name" "func_static_869"
@@ -50029,7 +50185,7 @@ brushDef3
 "origin" "161.062 -129.151 742.089"
 "rotation" "0 1 0 0 0 1 1 0 0"
 }
-// entity 1615
+// entity 1613
 {
 "classname" "func_static"
 "name" "func_static_870"
@@ -50037,7 +50193,7 @@ brushDef3
 "origin" "116.194 -129 741.713"
 "rotation" "0 -1 0 0 0 -1 1 0 0"
 }
-// entity 1616
+// entity 1614
 {
 "classname" "func_static"
 "name" "func_static_867"
@@ -50045,7 +50201,7 @@ brushDef3
 "origin" "369.062 -129.209 741.729"
 "rotation" "0 -1 0 0 0 -1 1 0 0"
 }
-// entity 1617
+// entity 1615
 {
 "classname" "func_static"
 "name" "func_static_871"
@@ -50053,7 +50209,7 @@ brushDef3
 "origin" "330.748 -129.36 741.713"
 "rotation" "0 1 0 0 0 -1 -1 0 0"
 }
-// entity 1618
+// entity 1616
 {
 "classname" "func_static"
 "name" "func_static_875"
@@ -50061,7 +50217,7 @@ brushDef3
 "origin" "285.88 -129.209 742.089"
 "rotation" "0 -1 0 0 0 1 -1 0 0"
 }
-// entity 1619
+// entity 1617
 {
 "classname" "func_static"
 "name" "func_static_876"
@@ -50069,7 +50225,7 @@ brushDef3
 "origin" "224 -128 744"
 "rotation" "1 0 0 0 1 0 0 0 1"
 }
-// entity 1620
+// entity 1618
 {
 "classname" "func_static"
 "name" "func_static_1078"
@@ -50077,7 +50233,7 @@ brushDef3
 "origin" "391.675 28.282 475.216"
 "rotation" "0 0 -1 -1 0 0 0 1 0"
 }
-// entity 1621
+// entity 1619
 {
 "classname" "func_static"
 "name" "func_static_1079"
@@ -50085,7 +50241,7 @@ brushDef3
 "origin" "431.225 29.282 475.895"
 "rotation" "0.979988 0 -0.199059 -0.199059 0 -0.979988 0 1 0"
 }
-// entity 1622
+// entity 1620
 {
 "classname" "func_static"
 "name" "func_static_1080"
@@ -50093,7 +50249,7 @@ brushDef3
 "origin" "470.675 29.282 475.216"
 "rotation" "0 0 -1 -1 0 0 0 1 0"
 }
-// entity 1623
+// entity 1621
 {
 "classname" "func_static"
 "name" "func_static_1081"
@@ -50101,7 +50257,7 @@ brushDef3
 "origin" "511.215 30.282 476.033"
 "rotation" "1 0 0 0 0 -1 0 1 0"
 }
-// entity 1624
+// entity 1622
 {
 "classname" "func_static"
 "name" "func_static_1082"
@@ -50109,7 +50265,7 @@ brushDef3
 "origin" "412.025 28.282 506.405"
 "rotation" "0.552422 0 -0.833565 -0.833565 0 -0.552422 0 1 0"
 }
-// entity 1625
+// entity 1623
 {
 "classname" "func_static"
 "name" "func_static_1083"
@@ -50117,7 +50273,7 @@ brushDef3
 "origin" "451.215 29.282 507.033"
 "rotation" "1 0 0 0 0 -1 0 1 0"
 }
-// entity 1626
+// entity 1624
 {
 "classname" "func_static"
 "name" "func_static_1084"
@@ -50125,7 +50281,7 @@ brushDef3
 "origin" "490.675 29.282 506.216"
 "rotation" "0 0 -1 -1 0 0 0 1 0"
 }
-// entity 1627
+// entity 1625
 {
 "classname" "func_static"
 "name" "func_static_1492"
@@ -50145,7 +50301,7 @@ brushDef3
 }
 }
 }
-// entity 1628
+// entity 1626
 {
 "classname" "func_static"
 "name" "func_static_1743"
@@ -50153,7 +50309,7 @@ brushDef3
 "origin" "572.675 65.992 511.29"
 "rotation" "0 -1 0 -1 0 0 0 0 -1"
 }
-// entity 1629
+// entity 1627
 {
 "classname" "func_static"
 "name" "func_static_880"
@@ -50161,7 +50317,7 @@ brushDef3
 "origin" "48 211.25 774"
 "rotation" "-1 0 0 0 -1 0 0 0 1"
 }
-// entity 1630
+// entity 1628
 {
 "classname" "func_static"
 "name" "func_static_879"
@@ -50169,7 +50325,7 @@ brushDef3
 "origin" "85.25 213.25 812.5"
 "rotation" "0.99996 -0.00671427 -0.00592583 1.96208e-10 -0.661714 0.749757 -0.00895527 -0.749726 -0.661687"
 }
-// entity 1631
+// entity 1629
 {
 "classname" "func_static"
 "name" "func_static_877"
@@ -50177,7 +50333,7 @@ brushDef3
 "origin" "60.75 206 781.5"
 "rotation" "0 1 0 0 0 1 1 0 0"
 }
-// entity 1632
+// entity 1630
 {
 "classname" "func_static"
 "name" "func_static_878"
@@ -50185,7 +50341,7 @@ brushDef3
 "origin" "60.75 211.5 798"
 "rotation" "0 -0.85735 -0.514733 0 0.514733 -0.85735 1 0 0"
 }
-// entity 1633
+// entity 1631
 {
 "classname" "func_static"
 "name" "func_static_881"
@@ -50193,7 +50349,7 @@ brushDef3
 "origin" "58.2303 -25.4725 800"
 "rotation" "0.860121 0.510091 0 -0.510091 0.860121 0 0 0 1"
 }
-// entity 1634
+// entity 1632
 {
 "classname" "func_static"
 "name" "func_static_882"
@@ -50202,7 +50358,7 @@ brushDef3
 "rotation" "0.996647 0.0818227 0 -0.0818227 0.996647 0 0 0 1"
 "skin" "light_wood_dirty1"
 }
-// entity 1635
+// entity 1633
 {
 "classname" "func_static"
 "name" "func_static_883"
@@ -50211,7 +50367,7 @@ brushDef3
 "rotation" "-0.0277215 -0.999616 0 0.999616 -0.0277215 0 0 0 1"
 "skin" "light_wood_dirty1"
 }
-// entity 1636
+// entity 1634
 {
 "classname" "func_static"
 "name" "func_static_884"
@@ -50219,7 +50375,7 @@ brushDef3
 "origin" "50.5 77.99 490.001"
 "rotation" "1 0 0 0 0.934026 -0.357205 0 0.357205 0.934026"
 }
-// entity 1637
+// entity 1635
 {
 "classname" "func_static"
 "name" "func_static_885"
@@ -50227,7 +50383,7 @@ brushDef3
 "origin" "382.284 214.716 712"
 "rotation" "1 0 0 0 1 0 0 0 1"
 }
-// entity 1638
+// entity 1636
 {
 "classname" "light"
 "name" "light_18"
@@ -50237,7 +50393,7 @@ brushDef3
 "origin" "382.284 204.716 712"
 "rotation" "0 1 0 -1 0 0 0 0 1"
 }
-// entity 1639
+// entity 1637
 {
 "classname" "func_emitter"
 "name" "func_emitter_7"
@@ -50246,7 +50402,7 @@ brushDef3
 "origin" "378.284 206.716 712"
 "rotation" "0 0 -1 1 0 0 0 -1 0"
 }
-// entity 1640
+// entity 1638
 {
 "classname" "func_static"
 "name" "func_static_886"
@@ -50255,7 +50411,7 @@ brushDef3
 "rotation" "1 0 0 0 1 0 0 0 1"
 "skin" "roundtable/rough_wood_sand"
 }
-// entity 1641
+// entity 1639
 {
 "classname" "func_static"
 "name" "func_static_887"
@@ -50263,7 +50419,7 @@ brushDef3
 "origin" "372 16 660.409"
 "rotation" "1 0 0 0 1 0 0 0 1"
 }
-// entity 1642
+// entity 1640
 {
 "classname" "func_static"
 "name" "func_static_888"
@@ -50271,7 +50427,7 @@ brushDef3
 "origin" "368 32 660.461"
 "rotation" "1 0 0 0 1 0 0 0 1"
 }
-// entity 1643
+// entity 1641
 {
 "classname" "func_static"
 "name" "func_static_889"
@@ -50279,7 +50435,7 @@ brushDef3
 "origin" "75.284 214.716 712"
 "rotation" "1 0 0 0 1 0 0 0 1"
 }
-// entity 1644
+// entity 1642
 {
 "classname" "light"
 "name" "light_19"
@@ -50289,7 +50445,7 @@ brushDef3
 "origin" "75.284 204.716 712"
 "rotation" "0 1 0 -1 0 0 0 0 1"
 }
-// entity 1645
+// entity 1643
 {
 "classname" "func_emitter"
 "name" "func_emitter_8"
@@ -50298,7 +50454,7 @@ brushDef3
 "origin" "73 205 712"
 "rotation" "0 0 -1 1 0 0 0 -1 0"
 }
-// entity 1646
+// entity 1644
 {
 "classname" "func_static"
 "name" "func_static_890"
@@ -50317,7 +50473,7 @@ brushDef3
 }
 }
 }
-// entity 1647
+// entity 1645
 {
 "classname" "func_static"
 "name" "func_static_891"
@@ -50387,7 +50543,7 @@ patchDef2
 }
 }
 }
-// entity 1648
+// entity 1646
 {
 "classname" "func_static"
 "name" "func_static_863"
@@ -50406,7 +50562,7 @@ brushDef3
 }
 }
 }
-// entity 1649
+// entity 1647
 {
 "classname" "func_static"
 "name" "func_static_864"
@@ -50425,47 +50581,7 @@ brushDef3
 }
 }
 }
-// entity 1650
-{
-"classname" "func_static"
-"name" "func_static_865"
-"model" "func_static_865"
-"origin" "444 84 1012"
-// primitive 0
-{
-brushDef3
-{
-( 0 1 0 -140 ) ( ( 0.01302083302289248 0 5.729166507720947 ) ( 0 0.01302083302289248 0 ) ) "textures/darkmod/stone/brick/old_worn_blocks_004" 0 0 0
-( 1 0 0 -12 ) ( ( 0.01302083302289248 0 0 ) ( 0 0.01302083302289248 0 ) ) "textures/darkmod/stone/brick/old_worn_blocks_004" 0 0 0
-( 0 0 -1 -92 ) ( ( 0.01302083302289248 0 0 ) ( 0 0.01302083302289248 5.729166507720947 ) ) "textures/darkmod/stone/brick/old_worn_blocks_004" 0 0 0
-( 0 -1 0 -140 ) ( ( 0.01302083302289248 0 250.2708435058594 ) ( 0 0.01302083302289248 0 ) ) "textures/darkmod/stone/brick/old_worn_blocks_004" 0 0 0
-( -1 0 0 -12 ) ( ( 0.01302083302289248 0 0 ) ( 0 0.01302083302289248 0 ) ) "textures/darkmod/stone/brick/old_worn_blocks_004" 0 0 0
-( 0 -0.7525767087936401 0.6585046052932739 -60.5823974609375 ) ( ( 0.01302083302289248 0 250.2708435058594 ) ( 0 0.01302083302289248 0 ) ) "textures/darkmod/stone/brick/old_worn_blocks_004" 0 0 0
-( 0 0.7525767087936401 0.6585046052932739 -60.58238983154297 ) ( ( 0.01302083302289248 0 5.729166507720947 ) ( 0 0.01302083302289248 0 ) ) "textures/darkmod/stone/brick/old_worn_blocks_004" 0 0 0
-}
-}
-}
-// entity 1651
-{
-"classname" "func_static"
-"name" "func_static_892"
-"model" "func_static_892"
-"origin" "4 84 1012"
-// primitive 0
-{
-brushDef3
-{
-( 0 1 0 -140 ) ( ( 0.01302083302289248 0 0 ) ( 0 0.01302083302289248 0 ) ) "textures/darkmod/stone/brick/old_worn_blocks_004" 0 0 0
-( 1 0 0 -12 ) ( ( 0.01302083302289248 0 0 ) ( 0 0.01302083302289248 0 ) ) "textures/darkmod/stone/brick/old_worn_blocks_004" 0 0 0
-( 0 0 -1 -92 ) ( ( 0.01302083302289248 0 0 ) ( 0 0.01302083302289248 0 ) ) "textures/darkmod/stone/brick/old_worn_blocks_004" 0 0 0
-( 0 -1 0 -140 ) ( ( 0.01302083302289248 0 0 ) ( 0 0.01302083302289248 0 ) ) "textures/darkmod/stone/brick/old_worn_blocks_004" 0 0 0
-( -1 0 0 -12 ) ( ( 0.01302083302289248 0 0 ) ( 0 0.01302083302289248 0 ) ) "textures/darkmod/stone/brick/old_worn_blocks_004" 0 0 0
-( 0 -0.7525767087936401 0.6585046052932739 -60.58242416381836 ) ( ( 0.01302083302289248 0 0 ) ( 0 0.01302083302289248 0 ) ) "textures/darkmod/stone/brick/old_worn_blocks_004" 0 0 0
-( 0 0.7525767087936401 0.6585046052932739 -60.58242416381836 ) ( ( 0.01302083302289248 0 0 ) ( 0 0.01302083302289248 0 ) ) "textures/darkmod/stone/brick/old_worn_blocks_004" 0 0 0
-}
-}
-}
-// entity 1652
+// entity 1648
 {
 "classname" "func_static"
 "name" "func_static_894"
@@ -50484,7 +50600,7 @@ brushDef3
 }
 }
 }
-// entity 1653
+// entity 1649
 {
 "classname" "func_static"
 "name" "func_static_893"
@@ -50503,7 +50619,7 @@ brushDef3
 }
 }
 }
-// entity 1654
+// entity 1650
 {
 "classname" "func_static"
 "name" "func_static_895"
@@ -50522,7 +50638,7 @@ brushDef3
 }
 }
 }
-// entity 1655
+// entity 1651
 {
 "classname" "func_static"
 "name" "func_static_896"
@@ -50541,7 +50657,7 @@ brushDef3
 }
 }
 }
-// entity 1656
+// entity 1652
 {
 "classname" "func_static"
 "name" "func_static_897"
@@ -50560,7 +50676,7 @@ brushDef3
 }
 }
 }
-// entity 1657
+// entity 1653
 {
 "classname" "func_static"
 "name" "func_static_898"
@@ -50579,7 +50695,7 @@ brushDef3
 }
 }
 }
-// entity 1658
+// entity 1654
 {
 "classname" "func_static"
 "name" "func_static_899"
@@ -50598,80 +50714,34 @@ brushDef3
 }
 }
 }
-// entity 1659
-{
-"classname" "func_static"
-"name" "func_static_900"
-"model" "func_static_900"
-"origin" "-72 96 932"
-// primitive 0
-{
-brushDef3
-{
-( 0 0 1 -4 ) ( ( 0.006510416511446238 0 0 ) ( 0 0.01302083302289248 0 ) ) "textures/darkmod/stone/brick/tiling_1d/bt_borderwall1_trim" 0 0 0
-( 0 1 0 -128 ) ( ( 0.006510416511446238 0 0 ) ( 0 0.01302083302289248 253.8125 ) ) "textures/darkmod/stone/brick/tiling_1d/bt_borderwall1_trim" 0 0 0
-( 1 0 0 -64 ) ( ( 0.006510416511446238 0 0 ) ( 0 0.01302083302289248 253.8125 ) ) "textures/darkmod/stone/brick/tiling_1d/bt_borderwall1_trim" 0 0 0
-( 0 0 -1 -4 ) ( ( -0.006696428637951612 0 2.250000715255737 ) ( 0 -0.006521739065647125 1.017382979393005 ) ) "textures/darkmod/stone/cobblestones/sidewalk_concrete" 0 0 0
-( 0 -1 0 -128 ) ( ( 0.006510416511446238 0 511.9479064941406 ) ( 0 0.01302083302289248 253.8125 ) ) "textures/darkmod/stone/brick/tiling_1d/bt_borderwall1_trim" 0 0 0
-( -1 0 0 -64 ) ( ( 0.006510416511446238 0 0 ) ( 0 0.01302083302289248 253.8125 ) ) "textures/darkmod/stone/brick/tiling_1d/bt_borderwall1_trim" 0 0 0
-}
-}
-}
-// entity 1660
-{
-"classname" "func_static"
-"name" "func_static_901"
-"model" "func_static_901"
-"origin" "523 87 932"
-// primitive 0
-{
-brushDef3
-{
-( 0 0 1 -4 ) ( ( 0.006510416511446238 0 0 ) ( 0 0.01302083302289248 0 ) ) "textures/darkmod/stone/brick/tiling_1d/bt_borderwall1_trim" 0 0 0
-( 0 1 0 -121 ) ( ( 0.006510416511446238 0 0 ) ( 0 0.01302083302289248 255.8958282470703 ) ) "textures/darkmod/stone/brick/tiling_1d/bt_borderwall1_trim" 0 0 0
-( 1 0 0 -57 ) ( ( 0.006510416511446238 0 0.0520833320915699 ) ( 0 0.01302083302289248 255.8958282470703 ) ) "textures/darkmod/stone/brick/tiling_1d/bt_borderwall1_trim" 0 0 0
-( 0 0 -1 -4 ) ( ( -0.006696428637951612 0 2.256697177886963 ) ( 0 -0.006521739065647125 1.017382979393005 ) ) "textures/darkmod/stone/cobblestones/sidewalk_concrete" 0 0 0
-( 0 -1 0 -120.5 ) ( ( 0.006510416511446238 0 0.0911458283662796 ) ( 0 0.01302083302289248 255.8958282470703 ) ) "textures/darkmod/stone/brick/tiling_1d/bt_borderwall1_trim" 0 0 0
-( -1 0 0 -57 ) ( ( 0.006510416511446238 0 0 ) ( 0 0.01302083302289248 255.8958282470703 ) ) "textures/darkmod/stone/brick/tiling_1d/bt_borderwall1_trim" 0 0 0
-}
-}
-}
-// entity 1661
-{
-"classname" "atdm:ai_proguard"
-"name" "atdm_ai_proguard_1"
-"origin" "384 -32 456.061"
-"rotation" "1 0 0 0 1 0 0 0 1"
-"target0" "path_corner_1"
-}
-// entity 1662
+// entity 1655
 {
 "classname" "path_corner"
 "name" "path_corner_1"
 "origin" "568 -16 536"
 "target0" "path_corner_2"
 }
-// entity 1663
+// entity 1656
 {
 "classname" "path_corner"
 "name" "path_corner_2"
 "origin" "520 168 616"
 "target0" "path_corner_3"
 }
-// entity 1664
+// entity 1657
 {
 "classname" "path_corner"
 "name" "path_corner_3"
 "origin" "488 -16 696"
 "target0" "path_corner_4"
 }
-// entity 1665
+// entity 1658
 {
 "classname" "path_corner"
 "name" "path_corner_4"
 "origin" "568 160 776"
 }
-// entity 1666
+// entity 1659
 {
 "classname" "func_static"
 "name" "func_static_866"
@@ -50762,7 +50832,7 @@ brushDef3
 }
 }
 }
-// entity 1667
+// entity 1660
 {
 "classname" "func_static"
 "name" "func_static_902"
@@ -50771,7 +50841,7 @@ brushDef3
 "rotation" "1 0 0 0 1 0 0 0 1"
 "skin" "roundtable/rough_wood_sand"
 }
-// entity 1668
+// entity 1661
 {
 "classname" "func_static"
 "name" "func_static_903"
@@ -50779,7 +50849,7 @@ brushDef3
 "rotation" "1 0 0 0 1 0 0 0 1"
 "model" "models/darkmod/containers/bag1_small.lwo"
 }
-// entity 1669
+// entity 1662
 {
 "classname" "func_static"
 "name" "func_static_904"
@@ -50787,7 +50857,7 @@ brushDef3
 "rotation" "1 0 0 0 1 0 0 0 1"
 "model" "models/darkmod/containers/bucket_wood_smaller.lwo"
 }
-// entity 1670
+// entity 1663
 {
 "classname" "func_static"
 "name" "func_static_905"
@@ -50796,7 +50866,7 @@ brushDef3
 "skin" "girder_bluesteel_dark"
 "rotation" "0 0 -1 -1 0 0 0 1 0"
 }
-// entity 1671
+// entity 1664
 {
 "classname" "func_static"
 "name" "func_static_906"
@@ -50805,7 +50875,7 @@ brushDef3
 "rotation" "-1 0 0 0 -1 0 0 0 1"
 "skin" "girder_bluesteel_dark"
 }
-// entity 1672
+// entity 1665
 {
 "classname" "func_static"
 "name" "func_static_907"
@@ -50814,7 +50884,7 @@ brushDef3
 "rotation" "1 0 0 0 1 0 0 0 1"
 "skin" "girder_bluesteel_dark"
 }
-// entity 1673
+// entity 1666
 {
 "classname" "func_static"
 "name" "func_static_908"
@@ -50823,7 +50893,7 @@ brushDef3
 "rotation" "1 0 0 0 1 0 0 0 1"
 "skin" "girder_bluesteel_dark"
 }
-// entity 1674
+// entity 1667
 {
 "classname" "func_static"
 "name" "func_static_909"
@@ -50832,7 +50902,7 @@ brushDef3
 "skin" "girder_bluesteel_dark"
 "rotation" "0 0 -1 -1 0 0 0 1 0"
 }
-// entity 1675
+// entity 1668
 {
 "classname" "func_static"
 "name" "func_static_910"
@@ -50840,26 +50910,7 @@ brushDef3
 "rotation" "-1 0 0 0 -1 0 0 0 1"
 "model" "models/darkmod/containers/barrell_med_closedx3.lwo"
 }
-// entity 1676
-{
-"classname" "func_static"
-"name" "func_static_843"
-"model" "func_static_843"
-"origin" "452 24 852"
-// primitive 0
-{
-brushDef3
-{
-( 0 0 1 -76 ) ( ( 0.01302083302289248 0 0 ) ( 0 0.01302083302289248 0 ) ) "textures/darkmod/stone/brick/old_worn_blocks_004" 0 0 0
-( 0 1 0 -72 ) ( ( 0.01302083302289248 0 0 ) ( 0 0.01302083302289248 0 ) ) "textures/darkmod/stone/brick/old_worn_blocks_004" 0 0 0
-( 1 0 0 -4 ) ( ( 0.01302083302289248 0 0 ) ( 0 0.01302083302289248 0 ) ) "textures/darkmod/stone/brick/old_worn_blocks_004" 0 0 0
-( 0 0 -1 -76 ) ( ( 0.01302083302289248 0 0 ) ( 0 0.01302083302289248 0 ) ) "textures/darkmod/stone/brick/old_worn_blocks_004" 0 0 0
-( 0 -1 0 -72 ) ( ( 0.01302083302289248 0 0 ) ( 0 0.01302083302289248 0 ) ) "textures/darkmod/stone/brick/old_worn_blocks_004" 0 0 0
-( -1 0 0 -4 ) ( ( 0.01302083302289248 0 0 ) ( 0 0.01302083302289248 0 ) ) "textures/darkmod/stone/brick/old_worn_blocks_004" 0 0 0
-}
-}
-}
-// entity 1677
+// entity 1669
 {
 "classname" "func_static"
 "name" "func_static_809"
@@ -50892,7 +50943,7 @@ brushDef3
 }
 }
 }
-// entity 1678
+// entity 1670
 {
 "classname" "func_static"
 "name" "func_static_911"
@@ -50925,7 +50976,7 @@ brushDef3
 }
 }
 }
-// entity 1679
+// entity 1671
 {
 "classname" "func_static"
 "name" "func_static_839"
@@ -51536,7 +51587,7 @@ brushDef3
 }
 }
 }
-// entity 1680
+// entity 1672
 {
 "classname" "func_static"
 "name" "func_static_912"
@@ -51546,7 +51597,7 @@ brushDef3
 "rotation" "0 1 0 -1 0 0 0 0 1"
 "skin" "lights/lamp_shaded_colorme"
 }
-// entity 1681
+// entity 1673
 {
 "classname" "func_emitter"
 "name" "func_emitter_9"
@@ -51555,7 +51606,7 @@ brushDef3
 "origin" "35.3788 84.29 987.25"
 "rotation" "-0.956854 0 -0.29057 0 1 0 0.29057 0 -0.956854"
 }
-// entity 1682
+// entity 1674
 {
 "classname" "light"
 "name" "light_20"
@@ -51569,7 +51620,7 @@ brushDef3
 "nodiffuse" "0"
 "noshadows" "0"
 }
-// entity 1683
+// entity 1675
 {
 "classname" "func_static"
 "name" "func_static_913"
@@ -51579,7 +51630,7 @@ brushDef3
 "rotation" "0 -1 0 1 0 0 0 0 1"
 "skin" "lights/lamp_shaded_colorme"
 }
-// entity 1684
+// entity 1676
 {
 "classname" "light"
 "name" "light_21"
@@ -51594,7 +51645,7 @@ brushDef3
 "noshadows" "0"
 "rotation" "-1 0 0 0 -1 0 0 0 1"
 }
-// entity 1685
+// entity 1677
 {
 "classname" "func_emitter"
 "name" "func_emitter_10"
@@ -51603,7 +51654,7 @@ brushDef3
 "origin" "412.514 83.475 987.25"
 "rotation" "0.956854 0 -0.29057 0 -1 0 -0.29057 0 -0.956854"
 }
-// entity 1686
+// entity 1678
 {
 "classname" "func_static"
 "name" "func_static_860"
@@ -51613,7 +51664,7 @@ brushDef3
 "skin" "lights/grill_light_colorme"
 "_color" "0.57 0.48 0.26"
 }
-// entity 1687
+// entity 1679
 {
 "classname" "light"
 "name" "light_16"
@@ -51622,7 +51673,7 @@ brushDef3
 "light_radius" "172 112 256"
 "_color" "0.57 0.48 0.26"
 }
-// entity 1688
+// entity 1680
 {
 "classname" "func_emitter"
 "name" "func_emitter_6"
