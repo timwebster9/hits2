@@ -20,9 +20,12 @@ void fallInRiver()
 void stickRopeArrow()
 {
     sys.println("trigger fired.");
+    $player1.selectWeapon("ropearrow");
+    entity weapon = $player1.getWeaponEntity();
 
-    //entity currentItem = $player1.getCurInvItemEntity();
-    //sys.println(currentItem);
+    sys.println(weapon.totalAmmoCount());
+    weapon.useAmmo(1);
+    sys.println(weapon.totalAmmoCount());
 
     //$player1.changeInvItemCount("Rope Arrow", "dummy", -1);
 }
