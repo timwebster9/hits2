@@ -1,0 +1,5 @@
+skin wall04_old_bricks_dark_messy
+{
+	model models/darkmod/architecture/modules/exteriors/ext_timber01/ext_timber01_wall04.lwo
+	textures/darkmod/plaster/tiling_1d/plaster_dirty01_grey textures/darkmod/stone/brick/old_bricks_dark_messy
+}

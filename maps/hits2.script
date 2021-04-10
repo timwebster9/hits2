@@ -10,3 +10,19 @@ void foundSecret()
     $secret_popup.setKey("force", 1);
     $secret_popup.activate($player1);
 }
+
+void fallInRiver()
+{
+    sys.println("you fell in the river");
+    // $player1.customDeath();  // does nothing
+}
+
+void stickRopeArrow()
+{
+    sys.println("trigger fired.");
+
+    //entity currentItem = $player1.getCurInvItemEntity();
+    //sys.println(currentItem);
+
+    //$player1.changeInvItemCount("Rope Arrow", "dummy", -1);
+}
