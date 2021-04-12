@@ -2,6 +2,8 @@
 float totalSecrets = 2;
 float totalSecretsFound = 0;
 
+#define SPYGLASS_IMMOBILIZATION IM_ATTACK|IM_ITEM_SELECT|IM_ITEM_DROP|IM_FROB|IM_WEAPON_SELECT
+
 void foundSecret()
 {
     totalSecretsFound++;
@@ -15,6 +17,20 @@ void fallInRiver()
 {
     sys.println("you fell in the river");
     // $player1.customDeath();  // does nothing
+}
+
+void doLantern()
+{
+
+    playertools_lantern lantern = $player_lantern;
+
+    if (lantern.lanternLight) {
+        lantern.inventoryUse($player1, $null_entity, 1);
+        $player1.setImmobilization("ratking", IM_ALL);
+        sys.wait(5);
+        $player1.setImmobilization("ratking", 0);
+    }
+
 }
 
 void stickRopeArrow()
