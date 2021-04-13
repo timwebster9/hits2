@@ -16,21 +16,32 @@ void foundSecret()
 void fallInRiver()
 {
     sys.println("you fell in the river");
-    // $player1.customDeath();  // does nothing
+    $player1.setHealth(0);
 }
 
 void doLantern()
 {
 
     playertools_lantern lantern = $player_lantern;
+    sys.println("in trigger");
+    lantern.inventoryUse($player1, $null_entity, 1);
 
-    if (lantern.lanternLight) {
-        lantern.inventoryUse($player1, $null_entity, 1);
-        $player1.setImmobilization("ratking", IM_ALL);
-        sys.wait(5);
-        $player1.setImmobilization("ratking", 0);
-    }
+    //if (lantern.lanternLight) {
+      //  lantern.inventoryUse($player1, $null_entity, 0);
+        //$player1.setImmobilization("ratking", IM_ALL);
+        //sys.wait(5);
+        //$player1.setImmobilization("ratking", 0);
+    //}
 
+}
+
+void immo()
+{
+    string source = "test_source";
+
+    $player1.setImmobilization(source, IM_ALL);
+    sys.wait(5);
+    $player1.setImmobilization(source, 0);
 }
 
 void stickRopeArrow()
