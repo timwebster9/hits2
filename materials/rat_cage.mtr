@@ -1,0 +1,66 @@
+rat_cage_bars
+{
+	metal
+	noselfshadow
+	{
+		blend diffusemap
+		map textures/darkmod/custom/cage_bars_d
+		alphatest 0.5
+	}	
+	bumpmap			_flat
+	specularmap		textures/darkmod/custom/cage_bars_s
+}
+
+rat_cage_base
+{
+	metal
+	noselfshadow
+	diffusemap		textures/darkmod/custom/cage_frame_d
+	bumpmap			_flat
+	specularmap		textures/darkmod/custom/cage_frame_s
+}
+
+rat_cage_base02
+{
+	metal
+	noselfshadow
+	diffusemap		textures/darkmod/custom/cage_frame_d02
+	bumpmap			_flat
+	specularmap		textures/darkmod/custom/cage_frame_s
+}
+
+rat_cage_base03
+{
+	metal
+	noselfshadow
+	diffusemap		textures/darkmod/custom/cage_frame_d03
+	bumpmap			_flat
+	specularmap		textures/darkmod/custom/cage_frame_s
+}
+
+rat_cage_base04
+{
+	metal
+	noselfshadow
+	diffusemap		textures/darkmod/custom/cage_frame_d04
+	bumpmap			_flat
+	specularmap		textures/darkmod/custom/cage_frame_s
+}
+
+rat_cage_base05
+{
+	metal
+	noselfshadow
+	diffusemap		textures/darkmod/custom/cage_frame_d05
+	bumpmap			_flat
+	specularmap		textures/darkmod/custom/cage_frame_s
+}
+
+rat_cage_base06
+{
+	metal
+	noselfshadow
+	diffusemap		textures/darkmod/custom/cage_frame_d06
+	bumpmap			_flat
+	specularmap		textures/darkmod/custom/cage_frame_s
+}
