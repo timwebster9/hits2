@@ -45,3 +45,13 @@ eaxreverb "location_tavern_stairs" {
 eaxreverb "location_gatehouse_entrance" {
   preset CASTLE_SMALLROOM
 }
+eaxreverb "location_ratcatcher_basement" {
+  preset STONEROOM
+}
+eaxreverb "location_ratcatcher_rathouse" {
+  preset STONEROOM
+}
+eaxreverb "location_ratcatcher_drain" {
+  preset SEWERPIPE
+}
+
