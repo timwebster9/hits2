@@ -5,10 +5,15 @@ textures/darkmod/custom/decals/hits2_blood_drag
 	noshadows
 	blood
 	noimpact
+	
+	bumpmap textures/darkmod/stone/cobblestones/flagstones_grey_mossy_local
 
   	{
 	blend diffusemap
 	map textures/darkmod/custom/decals/hits2_blood_drag
 	alphaTest 0.5
 	}
+
+
+
 }
