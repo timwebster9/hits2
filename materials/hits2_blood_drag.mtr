@@ -1,0 +1,14 @@
+
+textures/darkmod/custom/decals/hits2_blood_drag
+{
+	nonsolid
+	noshadows
+	blood
+	noimpact
+
+  	{
+	blend diffusemap
+	map textures/darkmod/custom/decals/hits2_blood_drag
+	alphaTest 0.5
+	}
+}
