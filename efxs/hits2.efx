@@ -52,6 +52,6 @@ eaxreverb "location_ratcatcher_rathouse" {
   preset STONEROOM
 }
 eaxreverb "location_ratcatcher_drain" {
-  preset SEWERPIPE
+  preset STONEROOM
 }
 
