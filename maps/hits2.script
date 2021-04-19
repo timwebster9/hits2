@@ -44,15 +44,39 @@ void immo()
     $player1.setImmobilization(source, 0);
 }
 
-void stickRopeArrow()
+void triggerTouch()
+{
+    sys.trigger($trigger_touch_1);
+	sys.waitFrame();
+	sys.trigger($trigger_touch_1);
+}
+
+void stickRopeArrow(entity ent)
 {
     sys.println("trigger fired.");
-    $player1.selectWeapon("ropearrow");
-    entity weapon = $player1.getWeaponEntity();
+    if (ent)
+    {
+        sys.println("Found entity: " + ent.getName());
+        $ent.setFrobable(0);
+        //sys.trigger($trigger_touch_1);
+    }
 
-    sys.println(weapon.totalAmmoCount());
-    weapon.useAmmo(1);
-    sys.println(weapon.totalAmmoCount());
+
+
+    //do
+    //{
+    //    key = $ent.getNextKey("", key);
+    //    sys.println("key: " + key);
+    //    string value = $ent.getKey(key);
+    //    sys.println("value: " + value);
+    //} while(key);
+
+    //$player1.selectWeapon("ropearrow");
+    //entity weapon = $player1.getWeaponEntity();
+
+    //sys.println(weapon.totalAmmoCount());
+    //weapon.useAmmo(1);
+    //sys.println(weapon.totalAmmoCount());
 
     //$player1.changeInvItemCount("Rope Arrow", "dummy", -1);
 }
