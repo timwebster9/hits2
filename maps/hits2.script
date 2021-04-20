@@ -2,8 +2,6 @@
 float totalSecrets = 2;
 float totalSecretsFound = 0;
 
-#define SPYGLASS_IMMOBILIZATION IM_ATTACK|IM_ITEM_SELECT|IM_ITEM_DROP|IM_FROB|IM_WEAPON_SELECT
-
 void foundSecret()
 {
     totalSecretsFound++;
@@ -15,68 +13,89 @@ void foundSecret()
 
 void fallInRiver()
 {
-    sys.println("you fell in the river");
     $player1.setHealth(0);
 }
 
-void doLantern()
+void arrow(entity ent)
 {
-
-    playertools_lantern lantern = $player_lantern;
-    sys.println("in trigger");
-    lantern.inventoryUse($player1, $null_entity, 1);
-
-    //if (lantern.lanternLight) {
-      //  lantern.inventoryUse($player1, $null_entity, 0);
-        //$player1.setImmobilization("ratking", IM_ALL);
-        //sys.wait(5);
-        //$player1.setImmobilization("ratking", 0);
-    //}
-
-}
-
-void immo()
-{
-    string source = "test_source";
-
-    $player1.setImmobilization(source, IM_ALL);
-    sys.wait(5);
-    $player1.setImmobilization(source, 0);
-}
-
-void triggerTouch()
-{
-    sys.trigger($trigger_touch_1);
-	sys.waitFrame();
-	sys.trigger($trigger_touch_1);
-}
-
-void stickRopeArrow(entity ent)
-{
-    sys.println("trigger fired.");
-    if (ent)
+    if (!$hits_rope_arrow)
     {
-        sys.println("Found entity: " + ent.getName());
-        $ent.setFrobable(0);
-        //sys.trigger($trigger_touch_1);
+        sys.println("found entity: " + ent.getName());
+        string className = ent.getKey("classname");
+        sys.println("className: " + className);
+
+        if (className == "atdm:ammo_ropearrow_stuck")
+        {
+            // disable trigger
+            sys.trigger($trigger_touch_1);
+
+            sys.println("A rope arrow struck this trigger");
+
+            vector entOrigin  = ent.getOrigin();
+            sys.println("original origin: " + entOrigin);
+
+            ent.setFrobable(0);
+            //ent.hide();
+
+            sys.setSpawnArg("name", "hits_rope_arrow");
+            //sys.setSpawnArg("rotation", rotation);
+            //sys.setSpawnArg("origin", entOrigin);
+            sys.setSpawnArg("frob_action_script", "customFrob");
+            //sys.setSpawnArg("model", "models/darkmod/weapons/ropearrow.lwo");
+
+            entity hitsArrow = sys.spawn("atdm:ammo_ropearrow_stuck");
+            hitsArrow.setOrigin(ent.getOrigin());
+            hitsArrow.setAngles(ent.getAngles());
+
+            sys.println(hitsArrow.getOrigin());
+
+            //ent.setKey("frob_action_script", "customFrob");
+            //ent.setFrobable(0);
+        }
+        else
+        {
+            sys.println("you are not a rope arrow");
+            sys.println("but your origin is: " + ent.getOrigin());
+        }
     }
-
-
-
-    //do
-    //{
-    //    key = $ent.getNextKey("", key);
-    //    sys.println("key: " + key);
-    //    string value = $ent.getKey(key);
-    //    sys.println("value: " + value);
-    //} while(key);
-
-    //$player1.selectWeapon("ropearrow");
-    //entity weapon = $player1.getWeaponEntity();
-
-    //sys.println(weapon.totalAmmoCount());
-    //weapon.useAmmo(1);
-    //sys.println(weapon.totalAmmoCount());
-
-    //$player1.changeInvItemCount("Rope Arrow", "dummy", -1);
 }
+
+void customFrob()
+{
+    sys.println("custom frob");
+}
+
+void checkArrow(entity ent)
+{
+    if (className == "atdm:ammo_ropearrow_stuck")
+    {
+        vector entOrigin  = ent.getOrigin();  // this is waaaaay off
+    }
+}
+
+
+        ent.setFrobable(0);
+        //ent.hide();
+
+        sys.setSpawnArg("name", "hits_rope_arrow");
+        //sys.setSpawnArg("rotation", rotation);
+        //sys.setSpawnArg("origin", entOrigin);
+        sys.setSpawnArg("frob_action_script", "customFrob");
+        //sys.setSpawnArg("model", "models/darkmod/weapons/ropearrow.lwo");
+
+        entity hitsArrow = sys.spawn("atdm:ammo_ropearrow_stuck");
+        hitsArrow.setOrigin(ent.getOrigin());
+        hitsArrow.setAngles(ent.getAngles());
+
+        sys.println(hitsArrow.getOrigin());
+
+        //ent.setKey("frob_action_script", "customFrob");
+        //ent.setFrobable(0);
+    }
+    else
+    {
+        sys.println("you are not a rope arrow");
+        sys.println("but your origin is: " + ent.getOrigin());
+    }
+}
+
