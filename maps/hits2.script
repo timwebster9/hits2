@@ -18,44 +18,32 @@ void fallInRiver()
 
 void arrow(entity ent)
 {
+    // only execute if the replacement arrow hasn't been spawned yet
     if (!$hits_rope_arrow)
     {
-        sys.println("found entity: " + ent.getName());
-        string className = ent.getKey("classname");
-        sys.println("className: " + className);
-
-        if (className == "atdm:ammo_ropearrow_stuck")
+        // ignore all activators except for rope arrows
+        if (ent.getKey("classname") == "atdm:ammo_ropearrow_stuck")
         {
-            // disable trigger
+            // disable the trigger_touch
             sys.trigger($trigger_touch_1);
 
-            sys.println("A rope arrow struck this trigger");
-
-            vector entOrigin  = ent.getOrigin();
-            sys.println("original origin: " + entOrigin);
-
+            // prevent the stuck arrow from being frobbed, and hide it with a nodraw skin
+            // using ent.hide() causes the rope to disappear as well, and we don't want that
             ent.setFrobable(0);
-            //ent.hide();
+            ent.setSkin("hits_ropearrow");
 
+            // spawn a replacement arrow in its place that can't be picked up
             sys.setSpawnArg("name", "hits_rope_arrow");
-            //sys.setSpawnArg("rotation", rotation);
-            //sys.setSpawnArg("origin", entOrigin);
+            sys.setSpawnArg("skin", "ropearrow_postimpact");
             sys.setSpawnArg("frob_action_script", "customFrob");
-            //sys.setSpawnArg("model", "models/darkmod/weapons/ropearrow.lwo");
+            sys.setSpawnArg("snd_acquire", "tdm_player_sigh");
+
+            // this prevents the arrow from going into the player inventory
+            sys.setSpawnArg("inv_ammo_amount", "0");
 
             entity hitsArrow = sys.spawn("atdm:ammo_ropearrow_stuck");
-            hitsArrow.setOrigin(ent.getOrigin());
+            hitsArrow.setOrigin(ent.getWorldOrigin());
             hitsArrow.setAngles(ent.getAngles());
-
-            sys.println(hitsArrow.getOrigin());
-
-            //ent.setKey("frob_action_script", "customFrob");
-            //ent.setFrobable(0);
-        }
-        else
-        {
-            sys.println("you are not a rope arrow");
-            sys.println("but your origin is: " + ent.getOrigin());
         }
     }
 }
@@ -65,37 +53,5 @@ void customFrob()
     sys.println("custom frob");
 }
 
-void checkArrow(entity ent)
-{
-    if (className == "atdm:ammo_ropearrow_stuck")
-    {
-        vector entOrigin  = ent.getOrigin();  // this is waaaaay off
-    }
-}
 
-
-        ent.setFrobable(0);
-        //ent.hide();
-
-        sys.setSpawnArg("name", "hits_rope_arrow");
-        //sys.setSpawnArg("rotation", rotation);
-        //sys.setSpawnArg("origin", entOrigin);
-        sys.setSpawnArg("frob_action_script", "customFrob");
-        //sys.setSpawnArg("model", "models/darkmod/weapons/ropearrow.lwo");
-
-        entity hitsArrow = sys.spawn("atdm:ammo_ropearrow_stuck");
-        hitsArrow.setOrigin(ent.getOrigin());
-        hitsArrow.setAngles(ent.getAngles());
-
-        sys.println(hitsArrow.getOrigin());
-
-        //ent.setKey("frob_action_script", "customFrob");
-        //ent.setFrobable(0);
-    }
-    else
-    {
-        sys.println("you are not a rope arrow");
-        sys.println("but your origin is: " + ent.getOrigin());
-    }
-}
 

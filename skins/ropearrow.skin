@@ -1,0 +1,9 @@
+skin hits_ropearrow
+{
+    model models/darkmod/weapons/ropearrow.lwo
+    models/weapons/ropearrow/ropearrow_gen textures/common/nodraw
+    models/weapons/ropearrow/ropearrow_head textures/common/nodraw
+    models/weapons/ropearrow/ropearrow_head2 textures/common/nodraw
+    models/weapons/ropearrow/ropearrow_rope textures/common/nodraw
+    models/weapons/shortbow/broadhead textures/common/nodraw
+}

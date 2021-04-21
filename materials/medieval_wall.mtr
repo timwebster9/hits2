@@ -1,0 +1,8 @@
+textures/darkmod/custom/medieval_wall
+{
+          wood
+
+          diffusemap         textures/darkmod/custom/medieval_wall/medieval_wall01_d
+          bumpmap            textures/darkmod/custom/medieval_wall/medieval_wall01_local
+          specularmap        _black
+}

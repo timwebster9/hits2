@@ -1,0 +1,8 @@
+textures/darkmod/custom/wood_plank
+{
+          wood
+
+          diffusemap         textures/darkmod/custom/wood/plank/wall_wood_plank_d
+          bumpmap            textures/darkmod/custom/wood/plank/wall_wood_plank_local
+          specularmap        _black //textures/darkmod/custom/wood/plank/wall_wood_plank_s
+}

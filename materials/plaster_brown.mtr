@@ -1,0 +1,8 @@
+textures/darkmod/custom/plaster_brown_clean
+{
+          stone  //or 'wood'
+
+          diffusemap         textures/darkmod/custom/plaster_brown/plaster_brown_clean
+          bumpmap            textures/darkmod/custom/plaster/plaster_all_local
+          specularmap       _black
+}
