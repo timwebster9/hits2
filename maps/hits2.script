@@ -22,7 +22,8 @@ void arrow(entity ent)
     if (!$hits_rope_arrow)
     {
         // ignore all activators except for rope arrows
-        if (ent.getKey("classname") == "atdm:ammo_ropearrow_stuck")
+        string arrowClassName = "atdm:ammo_ropearrow_stuck";
+        if (ent.getKey("classname") == arrowClassName)
         {
             // disable the trigger_touch
             sys.trigger($trigger_touch_1);
@@ -41,7 +42,7 @@ void arrow(entity ent)
             // this prevents the arrow from going into the player inventory
             sys.setSpawnArg("inv_ammo_amount", "0");
 
-            entity hitsArrow = sys.spawn("atdm:ammo_ropearrow_stuck");
+            entity hitsArrow = sys.spawn(arrowClassName);
             hitsArrow.setOrigin(ent.getWorldOrigin());
             hitsArrow.setAngles(ent.getAngles());
         }
