@@ -22,8 +22,7 @@ void arrow(entity ent)
     if (!$hits_rope_arrow)
     {
         // ignore all activators except for rope arrows
-        string arrowClassName = "atdm:ammo_ropearrow_stuck";
-        if (ent.getKey("classname") == arrowClassName)
+        if (ent.getKey("classname") == "atdm:ammo_ropearrow_stuck")
         {
             // disable the trigger_touch
             sys.trigger($trigger_touch_1);
@@ -37,7 +36,6 @@ void arrow(entity ent)
             sys.setSpawnArg("name", "hits_rope_arrow");
             sys.setSpawnArg("model", "models/darkmod/weapons/ropearrow.lwo");
             sys.setSpawnArg("skin", "ropearrow_postimpact");
-            sys.setSpawnArg("model", "models/darkmod/weapons/ropearrow.lwo");
             sys.setSpawnArg("frobable", "1");
             sys.setSpawnArg("frob_action_script", "customFrob");
             sys.setSpawnArg("snd_acquire", "tdm_player_sigh");
