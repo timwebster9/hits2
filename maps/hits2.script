@@ -38,7 +38,7 @@ void arrow(entity ent)
             sys.setSpawnArg("skin", "ropearrow_postimpact");
             sys.setSpawnArg("frobable", "1");
             sys.setSpawnArg("frob_action_script", "customFrob");
-            sys.setSpawnArg("snd_acquire", "tdm_player_sigh");
+            sys.setSpawnArg("snd_acquire", "climb_rope_hemp");
 
             entity hitsArrow = sys.spawn("func_static");
             hitsArrow.setOrigin(ent.getWorldOrigin());
