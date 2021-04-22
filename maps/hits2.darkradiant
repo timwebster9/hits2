@@ -2,14 +2,14 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "654116" } 
-		KeyValue { "LastCameraAngle" "39.9 75.6 0" } 
-		KeyValue { "LastCameraPosition" "1447.64 -1697.99 502.526" } 
+		KeyValue { "EditTimeInSeconds" "654255" } 
+		KeyValue { "LastCameraAngle" "-42.3 4.49997 0" } 
+		KeyValue { "LastCameraPosition" "1415.07 -1264.21 192.075" } 
 		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/wood/boards/ship_hull_dark" } 
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 654116 }
+		TotalSecondsEdited { 654255 }
 	}
 	SelectionGroups
 	{
@@ -9056,8 +9056,8 @@ DarkRadiant Map Information File Version 2
 		Node { 0 } // entity (func_static_68)
 		Node { 2 } // entity (atdm_ext_timber01_wall03_14)
 		Node { 0 } // entity (atdm_lamp_electric_shaded_lit_heavyflicker_2)
-		Node { 0 } // entity (func_static_73)
 		Node { 0 } // entity (func_static_80)
+		Node { 0 } // entity (func_static_69)
 	}
 	SelectionSets
 	{
