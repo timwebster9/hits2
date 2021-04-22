@@ -1,0 +1,58 @@
+
+float totalSecrets = 2;
+float totalSecretsFound = 0;
+
+void foundSecret()
+{
+    totalSecretsFound++;
+    string msg = "You have found " + totalSecretsFound + " of " + totalSecrets + " secrets.";
+    $secret_popup.setKey("text", msg);
+    $secret_popup.setKey("force", 1);
+    $secret_popup.activate($player1);
+}
+
+void fallInRiver()
+{
+    $player1.setHealth(0);
+}
+
+void arrow(entity ent)
+{
+    // only execute if the replacement arrow hasn't been spawned yet
+    if (!$hits_rope_arrow)
+    {
+        // ignore all activators except for rope arrows
+        string arrowClassName = "atdm:ammo_ropearrow_stuck";
+        if (ent.getKey("classname") == arrowClassName)
+        {
+            // disable the trigger_touch
+            sys.trigger($trigger_touch_1);
+
+            // prevent the stuck arrow from being frobbed, and hide it with a nodraw skin
+            // using ent.hide() causes the rope to disappear as well, and we don't want that
+            ent.setFrobable(0);
+            ent.setSkin("hits_ropearrow");
+
+            // spawn a replacement arrow in its place that can't be picked up
+            sys.setSpawnArg("name", "hits_rope_arrow");
+            sys.setSpawnArg("skin", "ropearrow_postimpact");
+            sys.setSpawnArg("frob_action_script", "customFrob");
+            sys.setSpawnArg("snd_acquire", "tdm_player_sigh");
+
+            // this prevents the arrow from going into the player inventory
+            sys.setSpawnArg("inv_ammo_amount", "0");
+
+            entity hitsArrow = sys.spawn(arrowClassName);
+            hitsArrow.setOrigin(ent.getWorldOrigin());
+            hitsArrow.setAngles(ent.getAngles());
+        }
+    }
+}
+
+void customFrob()
+{
+    sys.println("custom frob");
+}
+
+
+
