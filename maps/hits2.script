@@ -35,14 +35,14 @@ void arrow(entity ent)
 
             // spawn a replacement arrow in its place that can't be picked up
             sys.setSpawnArg("name", "hits_rope_arrow");
+            sys.setSpawnArg("model", "models/darkmod/weapons/ropearrow.lwo");
             sys.setSpawnArg("skin", "ropearrow_postimpact");
+            sys.setSpawnArg("model", "models/darkmod/weapons/ropearrow.lwo");
+            sys.setSpawnArg("frobable", "1");
             sys.setSpawnArg("frob_action_script", "customFrob");
             sys.setSpawnArg("snd_acquire", "tdm_player_sigh");
 
-            // this prevents the arrow from going into the player inventory
-            sys.setSpawnArg("inv_ammo_amount", "0");
-
-            entity hitsArrow = sys.spawn(arrowClassName);
+            entity hitsArrow = sys.spawn("func_static");
             hitsArrow.setOrigin(ent.getWorldOrigin());
             hitsArrow.setAngles(ent.getAngles());
         }
