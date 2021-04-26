@@ -54,4 +54,12 @@ eaxreverb "location_ratcatcher_rathouse" {
 eaxreverb "location_ratcatcher_drain" {
   preset STONEROOM
 }
+eaxreverb "location_bridgeoffice" {
+  preset WOODEN_SMALLROOM
+}
+eaxreverb "location_bridgeoffice_president" {
+  preset WOODEN_MEDIUMROOM
+}
+
+
 
