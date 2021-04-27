@@ -1,0 +1,19 @@
+textures/darkmod/custom/hits2_shutter01_d
+{
+	wood
+	
+	diffusemap textures/darkmod/custom/hits2_shutter01_d
+	bumpmap    textures/darkmod/custom/hits2_shutter01_local
+	specularmap _black
+	
+}
+
+textures/darkmod/custom/hits2_shutter02_d
+{
+	wood
+	
+	diffusemap textures/darkmod/custom/hits2_shutter02_d
+	bumpmap    textures/darkmod/custom/hits2_shutter02_local
+	specularmap _black
+	
+}
