@@ -2,14 +2,14 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "731195" } 
-		KeyValue { "LastCameraAngle" "-63 203.4 0" } 
-		KeyValue { "LastCameraPosition" "1538.37 -1005.73 697.497" } 
+		KeyValue { "EditTimeInSeconds" "731409" } 
+		KeyValue { "LastCameraAngle" "-10.2 138.9 0" } 
+		KeyValue { "LastCameraPosition" "1594.01 -831.071 684.853" } 
 		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/metal/flat/iron_flat" } 
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 731195 }
+		TotalSecondsEdited { 731409 }
 	}
 	SelectionGroups
 	{
@@ -543,6 +543,7 @@ DarkRadiant Map Information File Version 2
 		SelectionGroup 1278 { "" }
 		SelectionGroup 1280 { "" }
 		SelectionGroup 1283 { "" }
+		SelectionGroup 1285 { "" }
 	}
 	SelectionGroupNodeMapping
 	{
@@ -2938,8 +2939,12 @@ DarkRadiant Map Information File Version 2
 		Node { ( 2413 ) ( 1280 ) } // entity (CupboardDoorHingesB1)
 		Node { ( 2414 ) ( 1280 ) } // entity (CupboardDoorHingesA1)
 		Node { ( 2415 ) ( 1280 ) } // entity (spindles1)
+		Node { ( 2424 ) ( 1285 ) } // entity (tailor_trapdoor)
 		Node { ( 2425 ) ( 1283 ) } // entity (func_static_1478)
 		Node { ( 2426 ) ( 1283 ) } // entity (func_static_1479)
+		Node { ( 2427 ) ( 1285 ) } // entity (func_static_1480)
+		Node { ( 2428 ) ( 1285 ) } // entity (func_static_1482)
+		Node { ( 2431 ) ( 1285 ) } // entity (func_static_1483)
 	}
 	Layers
 	{
@@ -9399,6 +9404,7 @@ DarkRadiant Map Information File Version 2
 		Node { 0 } // patch (Patch)
 		Node { 0 } // patch (Patch)
 		Node { 0 } // patch (Patch)
+		Node { 0 } // entity (func_static_1483)
 	}
 	SelectionSets
 	{
