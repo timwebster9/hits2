@@ -18,13 +18,13 @@ eaxreverb "location_mill_loftentry" {
 eaxreverb "location_mill_loft" {
   preset WOODEN_SMALLROOM
 }
-eaxreverb "location_house1" {
+eaxreverb "location_tailor" {
   preset WOODEN_SMALLROOM
 }
-eaxreverb "location_house1_bathroom" {
+eaxreverb "location_tailor_bathroom" {
   preset WOODEN_SMALLROOM
 }
-eaxreverb "location_house1_understairs" {
+eaxreverb "location_tailor_understairs" {
   preset WOODEN_CUPBOARD
 }
 eaxreverb "location_humphrey" {

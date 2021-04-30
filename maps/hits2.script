@@ -1,6 +1,21 @@
 
+// secrets globals
 float totalSecrets = 2;
 float totalSecretsFound = 0;
+
+// river body flag
+float riverBody = 0;
+
+void thugRiver(entity ent)
+{
+    if ( (!riverBody) && (ent.getName() == "thug_river") )
+    {
+        riverBody = 1;
+        sys.trigger($trigger_touch_2);
+        sys.println("The thug is in the river!");
+        ent.remove();
+    }
+}
 
 void foundSecret()
 {
