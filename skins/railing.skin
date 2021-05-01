@@ -1,0 +1,8 @@
+skin railing_walnut
+{
+    model models/darkmod/architecture/handrails/set01_railing_seg1.lwo
+    model models/darkmod/misc/lod/architecture/handrails/set01_railing_seg1_med.lwo
+
+    textures/darkmod/wood/boards/wood_brown_dull01 textures/darkmod/wood/boards/wood_brown_walnut
+    textures/darkmod/wood/panels/wood_brown_dull01_panel textures/darkmod/wood/panels/walnut_panel01
+}

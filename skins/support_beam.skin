@@ -1,0 +1,6 @@
+skin beam_darkbrown
+{
+    model models/darkmod/architecture/supports/timber01_support_beam01_small.lwo
+    textures/darkmod/wood/boards/rough_wood_darkbrown_dull	textures/darkmod/wood/boards/rough_wood_darkbrown
+    textures/darkmod/wood/boards/timber_ends textures/darkmod/wood/boards/rough_wood_darkbrown
+}

@@ -4,15 +4,35 @@ float totalSecrets = 2;
 float totalSecretsFound = 0;
 
 // river body flag
-float riverBody = 0;
+float g_riverguySuccess = 0;
+float g_riverguyFail = 0;
 
-void thugRiver(entity ent)
+void riverguyFail(entity ent)
 {
-    if ( (!riverBody) && (ent.getName() == "thug_river") )
+    if ( (!g_riverguyFail) && (ent.getName() == "thug_river") )
     {
-        riverBody = 1;
-        sys.trigger($trigger_touch_2);
-        sys.println("The thug is in the river!");
+        g_riverguyFail = 1;
+
+        sys.trigger($trigger_riverguy_fail);
+        sys.println("You missed!");
+        //ent.remove();
+    }
+}
+
+void riverguySuccess(entity ent)
+{
+    if ( (!g_riverguySuccess) && (ent.getName() == "thug_river") )
+    {
+        g_riverguySuccess = 1;
+        sys.println("You hit the target!");
+
+        // deactivate both success and fail triggers
+        sys.trigger($trigger_riverguy_success);
+        sys.trigger($trigger_riverguy_fail);
+
+        sys.wait(4);
+
+        sys.println("Trigger cutscene.");
         ent.remove();
     }
 }

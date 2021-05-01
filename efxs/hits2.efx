@@ -42,6 +42,21 @@ eaxreverb "location_bridge_industrial" {
 eaxreverb "location_tavern_stairs" {
   preset WOODEN_SMALLROOM
 }
+eaxreverb "location_tavern_bar" {
+  preset WOODEN_MEDIUMROOM
+}
+eaxreverb "location_tavern_hallway" {
+  preset WOODEN_MEDIUMROOM
+}
+eaxreverb "location_tavern_bedroom" {
+  preset WOODEN_SMALLROOM
+}
+eaxreverb "location_tavern_bathroom" {
+  preset WOODEN_SMALLROOM
+}
+eaxreverb "location_tavern_cardroom" {
+  preset WOODEN_LARGEROOM
+}
 eaxreverb "location_gatehouse_entrance" {
   preset CASTLE_SMALLROOM
 }
