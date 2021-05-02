@@ -1,6 +1,7 @@
 skin windowframe_dark_brown
 {
     model models/darkmod/architecture/windows/squarepanel_set01_emptyframe.lwo
+    model models/darkmod/architecture/windows/set01_window02_emptyframe.lwo
 
     textures/darkmod/wood/boards/wood_brown_dull01 textures/darkmod/wood/boards/rough_wood_darkbrown
     textures/darkmod/wood/panels/wood_brown_dull01_panel textures/darkmod/wood/boards/rough_wood_darkbrown
