@@ -3,13 +3,14 @@
 float totalSecrets = 2;
 float totalSecretsFound = 0;
 
-// river body flag
+// river body globals
 float g_riverguySuccess = 0;
 float g_riverguyFail = 0;
+string g_riverguyName = "scrope";
 
 void riverguyFail(entity ent)
 {
-    if ( (!g_riverguyFail) && (ent.getName() == "thug_river") )
+    if ( (!g_riverguyFail) && (ent.getName() == g_riverguyName) )
     {
         g_riverguyFail = 1;
 
@@ -21,7 +22,7 @@ void riverguyFail(entity ent)
 
 void riverguySuccess(entity ent)
 {
-    if ( (!g_riverguySuccess) && (ent.getName() == "thug_river") )
+    if ( (!g_riverguySuccess) && (ent.getName() == g_riverguyName) )
     {
         g_riverguySuccess = 1;
         sys.println("You hit the target!");
