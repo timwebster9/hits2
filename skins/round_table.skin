@@ -1,0 +1,7 @@
+skin table_gambling
+{
+    model models/darkmod/furniture/tables/rtable1.lwo
+
+    rtable1 rtable2
+    table_medallion textures/darkmod/fabric/cloth_baize_green
+}
