@@ -1,0 +1,6 @@
+skin walnut
+{
+    model models/darkmod/furniture/shelves/keg_shelf01.lwo
+    textures/darkmod/wood/boards/wood_brown_dull01 textures/darkmod/wood/boards/wood_brown_walnut
+    textures/darkmod/wood/panels/wood_brown_dull01_panel textures/darkmod/wood/panels/walnut_panel01
+}
