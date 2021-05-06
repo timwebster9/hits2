@@ -27,6 +27,15 @@ eaxreverb "location_tailor_bathroom" {
 eaxreverb "location_tailor_understairs" {
   preset WOODEN_CUPBOARD
 }
+eaxreverb "location_builder_alley" {
+  preset ALLEY
+}
+eaxreverb "location_dsb_rootcellar" {
+  preset WOODEN_SMALLROOM
+}
+eaxreverb "location_dsb_kitchen" {
+  preset WOODEN_SMALLROOM
+}
 eaxreverb "location_humphrey" {
   preset WOODEN_SMALLROOM
 }
