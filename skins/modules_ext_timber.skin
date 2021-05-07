@@ -125,3 +125,9 @@ skin timber_corner_spacer01_tall_brown_wood
 	textures/darkmod/wood/boards/rough_wood_darkbrown_dull	textures/darkmod/wood/boards/rough_wood_darkbrown
 }
 
+skin window_openable_transparent
+{
+	model models/darkmod/architecture/modules/exteriors/ext_timber01/ext_timber01_window_openable.lwo
+	textures/glass/dull_opaque01 textures/darkmod/glass/clear_warp
+}
+
