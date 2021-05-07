@@ -2,9 +2,9 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "866719" } 
-		KeyValue { "LastCameraAngle" "3.30001 281.401 0" } 
-		KeyValue { "LastCameraPosition" "1836.41 -145.889 837.839" } 
+		KeyValue { "EditTimeInSeconds" "866907" } 
+		KeyValue { "LastCameraAngle" "-21.3 290.401 0" } 
+		KeyValue { "LastCameraPosition" "1800.78 -247.319 686.667" } 
 		KeyValue { "LastShaderClipboardMaterial" "textures/common/tdm_nodrawsolid_carpet" } 
 	}
 	SelectionGroups
@@ -621,7 +621,6 @@ DarkRadiant Map Information File Version 2
 		SelectionGroup 1433 { "" }
 		SelectionGroup 1434 { "" }
 		SelectionGroup 1435 { "" }
-		SelectionGroup 1437 { "" }
 		SelectionGroup 1438 { "" }
 		SelectionGroup 1439 { "" }
 		SelectionGroup 1440 { "" }
@@ -633,6 +632,7 @@ DarkRadiant Map Information File Version 2
 		SelectionGroup 1446 { "" }
 		SelectionGroup 1447 { "" }
 		SelectionGroup 1448 { "" }
+		SelectionGroup 1449 { "" }
 	}
 	SelectionGroupNodeMapping
 	{
@@ -3159,8 +3159,8 @@ DarkRadiant Map Information File Version 2
 		Node { ( 2676 ) ( 1368 ) } // entity (func_static_1651)
 		Node { ( 2677 ) ( 1368 ) } // entity (func_static_1652)
 		Node { ( 2678 ) ( 1368 ) } // entity (func_static_1653)
-		Node { ( 2685 ) ( 1437 ) } // entity (func_static_1664)
-		Node { ( 2686 ) ( 1437 ) } // entity (func_static_1665)
+		Node { ( 2685 ) ( 1449 ) } // entity (func_static_1664)
+		Node { ( 2686 ) ( 1449 ) } // entity (func_static_1665)
 		Node { ( 2694 ) ( 1386 ) } // entity (func_static_1671)
 		Node { ( 2695 ) ( 1386 ) } // entity (func_static_1672)
 		Node { ( 2696 ) ( 1386 ) } // entity (bunkbed_2)
@@ -3242,35 +3242,35 @@ DarkRadiant Map Information File Version 2
 		Node { ( 2796 ) ( 1433 ) } // entity (func_static_2264)
 		Node { ( 2803 ) ( 1435 ) } // entity (func_static_1724)
 		Node { ( 2804 ) ( 1435 ) } // entity (atdm_moveable_candle_short_9)
-		Node { ( 2809 ) ( 1437 ) } // entity (func_static_1728)
-		Node { ( 2812 ) ( 1438 ) } // entity (atdm_moveable_candle_short_10)
-		Node { ( 2813 ) ( 1438 ) } // entity (func_static_1662)
-		Node { ( 2817 4850 ) ( 1443 ) } // brush (Brush)
-		Node { ( 2817 4851 ) ( 1443 ) } // brush (Brush)
-		Node { ( 2817 4852 ) ( 1442 ) } // brush (Brush)
-		Node { ( 2817 4853 ) ( 1444 ) } // brush (Brush)
-		Node { ( 2817 4854 ) ( 1445 ) } // brush (Brush)
-		Node { ( 2817 4856 ) ( 1445 ) } // brush (Brush)
-		Node { ( 2817 4857 ) ( 1439 ) } // brush (Brush)
-		Node { ( 2817 4858 ) ( 1441 ) } // brush (Brush)
-		Node { ( 2817 4859 ) ( 1442 ) } // brush (Brush)
-		Node { ( 2817 4860 ) ( 1441 ) } // brush (Brush)
-		Node { ( 2817 4861 ) ( 1441 ) } // brush (Brush)
-		Node { ( 2817 4862 ) ( 1440 ) } // brush (Brush)
-		Node { ( 2817 4863 ) ( 1439 ) } // brush (Brush)
-		Node { ( 2817 4864 ) ( 1442 ) } // brush (Brush)
-		Node { ( 2817 4865 ) ( 1440 ) } // brush (Brush)
-		Node { ( 2817 4866 ) ( 1439 ) } // brush (Brush)
-		Node { ( 2817 4867 ) ( 1443 ) } // brush (Brush)
-		Node { ( 2817 4868 ) ( 1440 ) } // brush (Brush)
-		Node { ( 2817 4870 ) ( 1444 ) } // brush (Brush)
-		Node { ( 2817 4871 ) ( 1444 ) } // brush (Brush)
-		Node { ( 2817 4872 ) ( 1446 ) } // brush (Brush)
-		Node { ( 2817 4873 ) ( 1446 ) } // brush (Brush)
-		Node { ( 2817 4874 ) ( 1445 ) } // brush (Brush)
-		Node { ( 2817 4875 ) ( 1446 ) } // brush (Brush)
-		Node { ( 2839 ) ( 1448 ) } // entity (door_96x48x2hinge_32)
-		Node { ( 2840 ) ( 1448 ) } // entity (doorhandle_96x48x2hinge_32)
+		Node { ( 2811 ) ( 1438 ) } // entity (atdm_moveable_candle_short_10)
+		Node { ( 2812 ) ( 1438 ) } // entity (func_static_1662)
+		Node { ( 2816 4830 ) ( 1443 ) } // brush (Brush)
+		Node { ( 2816 4831 ) ( 1443 ) } // brush (Brush)
+		Node { ( 2816 4832 ) ( 1442 ) } // brush (Brush)
+		Node { ( 2816 4833 ) ( 1444 ) } // brush (Brush)
+		Node { ( 2816 4834 ) ( 1445 ) } // brush (Brush)
+		Node { ( 2816 4836 ) ( 1445 ) } // brush (Brush)
+		Node { ( 2816 4837 ) ( 1439 ) } // brush (Brush)
+		Node { ( 2816 4838 ) ( 1441 ) } // brush (Brush)
+		Node { ( 2816 4839 ) ( 1442 ) } // brush (Brush)
+		Node { ( 2816 4840 ) ( 1441 ) } // brush (Brush)
+		Node { ( 2816 4841 ) ( 1441 ) } // brush (Brush)
+		Node { ( 2816 4842 ) ( 1440 ) } // brush (Brush)
+		Node { ( 2816 4843 ) ( 1439 ) } // brush (Brush)
+		Node { ( 2816 4844 ) ( 1442 ) } // brush (Brush)
+		Node { ( 2816 4845 ) ( 1440 ) } // brush (Brush)
+		Node { ( 2816 4846 ) ( 1439 ) } // brush (Brush)
+		Node { ( 2816 4847 ) ( 1443 ) } // brush (Brush)
+		Node { ( 2816 4848 ) ( 1440 ) } // brush (Brush)
+		Node { ( 2816 4850 ) ( 1444 ) } // brush (Brush)
+		Node { ( 2816 4851 ) ( 1444 ) } // brush (Brush)
+		Node { ( 2816 4852 ) ( 1446 ) } // brush (Brush)
+		Node { ( 2816 4853 ) ( 1446 ) } // brush (Brush)
+		Node { ( 2816 4854 ) ( 1445 ) } // brush (Brush)
+		Node { ( 2816 4855 ) ( 1446 ) } // brush (Brush)
+		Node { ( 2838 ) ( 1448 ) } // entity (door_96x48x2hinge_32)
+		Node { ( 2839 ) ( 1448 ) } // entity (doorhandle_96x48x2hinge_32)
+		Node { ( 2846 ) ( 1449 ) } // entity (func_static_1728)
 	}
 	Layers
 	{
@@ -10933,27 +10933,6 @@ DarkRadiant Map Information File Version 2
 		Node { 0 } // entity (func_static_1726)
 		Node { 0 } // entity (func_static_1727)
 		Node { 0 } // entity (info_locationseparator_76)
-		Node { 11 } // entity (func_static_1728)
-		Node { 11 } // brush (Brush)
-		Node { 11 } // brush (Brush)
-		Node { 11 } // brush (Brush)
-		Node { 11 } // brush (Brush)
-		Node { 11 } // brush (Brush)
-		Node { 11 } // brush (Brush)
-		Node { 11 } // brush (Brush)
-		Node { 11 } // brush (Brush)
-		Node { 11 } // brush (Brush)
-		Node { 11 } // brush (Brush)
-		Node { 11 } // brush (Brush)
-		Node { 11 } // brush (Brush)
-		Node { 11 } // brush (Brush)
-		Node { 11 } // brush (Brush)
-		Node { 11 } // brush (Brush)
-		Node { 11 } // brush (Brush)
-		Node { 11 } // brush (Brush)
-		Node { 11 } // brush (Brush)
-		Node { 11 } // brush (Brush)
-		Node { 11 } // brush (Brush)
 		Node { 0 } // entity (func_static_1729)
 		Node { 0 } // entity (func_static_1730)
 		Node { 0 } // entity (atdm_moveable_candle_short_10)
@@ -11064,10 +11043,31 @@ DarkRadiant Map Information File Version 2
 		Node { 0 } // brush (Brush)
 		Node { 0 } // entity (func_static_1750)
 		Node { 0 } // brush (Brush)
+		Node { 11 } // entity (func_static_1728)
+		Node { 11 } // brush (Brush)
+		Node { 11 } // brush (Brush)
+		Node { 11 } // brush (Brush)
+		Node { 11 } // brush (Brush)
+		Node { 11 } // brush (Brush)
+		Node { 11 } // brush (Brush)
+		Node { 11 } // brush (Brush)
+		Node { 11 } // brush (Brush)
+		Node { 11 } // brush (Brush)
+		Node { 11 } // brush (Brush)
+		Node { 11 } // brush (Brush)
+		Node { 11 } // brush (Brush)
+		Node { 11 } // brush (Brush)
+		Node { 11 } // brush (Brush)
+		Node { 11 } // brush (Brush)
+		Node { 11 } // brush (Brush)
+		Node { 11 } // brush (Brush)
+		Node { 11 } // brush (Brush)
+		Node { 11 } // brush (Brush)
+		Node { 11 } // brush (Brush)
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 866719 }
+		TotalSecondsEdited { 866907 }
 	}
 	SelectionSets
 	{
