@@ -1,8 +1,31 @@
 Version 2
 
+// outside/river
+
 eaxreverb "location_river" {
   preset OUTDOORS_VALLEY
 }
+eaxreverb "location_river_back" {
+  preset OUTDOORS_VALLEY
+}
+
+// bridge main street areas
+
+eaxreverb "location_builder_alley" {
+  preset ALLEY
+}
+eaxreverb "location_alley" {
+  preset ALLEY
+}
+eaxreverb "location_residential_street" {
+  preset CITY_ABANDONED
+}
+eaxreverb "location_bridge_industrial" {
+  preset CITY_ABANDONED
+}
+
+// mill house
+
 eaxreverb "location_mill_office" {
   preset WOODEN_SMALLROOM
 }
@@ -18,6 +41,9 @@ eaxreverb "location_mill_loftentry" {
 eaxreverb "location_mill_loft" {
   preset WOODEN_SMALLROOM
 }
+
+// tailor house (Samuell's)
+
 eaxreverb "location_tailor" {
   preset WOODEN_SMALLROOM
 }
@@ -27,27 +53,42 @@ eaxreverb "location_tailor_bathroom" {
 eaxreverb "location_tailor_understairs" {
   preset WOODEN_CUPBOARD
 }
-eaxreverb "location_builder_alley" {
-  preset ALLEY
-}
+
+// DSB house
+
 eaxreverb "location_dsb_rootcellar" {
   preset WOODEN_SMALLROOM
 }
 eaxreverb "location_dsb_kitchen" {
   preset WOODEN_SMALLROOM
 }
+eaxreverb "location_dsb_lounge" {
+  preset WOODEN_MEDIUMROOM
+}
+eaxreverb "location_dsb_ladderhall" {
+  preset WOODEN_SMALLROOM
+}
+eaxreverb "location_dsb_bathroom" {
+  preset WOODEN_MEDIUMROOM
+}
+eaxreverb "location_dsb_study" {
+  preset WOODEN_CUPBOARD
+}
+eaxreverb "location_dsb_bedroom" {
+  preset WOODEN_MEDIUMROOM
+}
+eaxreverb "location_dsb_hiddenroom" {
+  preset WOODEN_MEDIUMROOM
+}
+
+// Humphrey's house
+
 eaxreverb "location_humphrey" {
   preset WOODEN_SMALLROOM
 }
-eaxreverb "location_alley" {
-  preset ALLEY
-}
-eaxreverb "location_residential_street" {
-  preset CITY_ABANDONED
-}
-eaxreverb "location_bridge_industrial" {
-  preset CITY_ABANDONED
-}
+
+// Tavern
+
 eaxreverb "location_tavern_stairs" {
   preset WOODEN_SMALLROOM
 }
@@ -66,9 +107,15 @@ eaxreverb "location_tavern_bathroom" {
 eaxreverb "location_tavern_cardroom" {
   preset WOODEN_LARGEROOM
 }
+
+// Gatehouse
+
 eaxreverb "location_gatehouse_entrance" {
   preset CASTLE_SMALLROOM
 }
+
+// Ratcatcher's house
+
 eaxreverb "location_ratcatcher_basement" {
   preset STONEROOM
 }
@@ -78,6 +125,9 @@ eaxreverb "location_ratcatcher_rathouse" {
 eaxreverb "location_ratcatcher_drain" {
   preset STONEROOM
 }
+
+// Bridge offices
+
 eaxreverb "location_bridgeoffice" {
   preset WOODEN_SMALLROOM
 }
