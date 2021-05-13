@@ -18,7 +18,7 @@ readables/hits2/millhouse_loft_note
 readables/hits2/millhouse_loft_footlocker_note
 {
 	precache
-	"num_pages"	: "1"
+	"num_pages"	: "2"
 	"page1_title"	:
 	{
 		""
@@ -26,8 +26,28 @@ readables/hits2/millhouse_loft_footlocker_note
 	"page1_body"	:
 	{
 		""
+		"Dear Brumhilda,"
+		"     "
+		"     Thank ye for the letter. I miss ye also and sharing a bed with Hammond has given me cause to think of ye much, for his bosom is not so soft as yours. "
+		"That was a jest. We do not share the cot at the same time. In truth he and I have not spoken for two days gone, but that is a story for when I return."
+		"     I hope ye father is in health? Please thank him for the fishbait, for it has served us well. In a month I shall be home with enough saved by to provide for  "
+		""
 	}
-	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_nancy.gui"
+	"page2_title"	:
+	{
+		""
+	}
+	"page2_body"	:
+	{
+		""
+		"a cottage of our own. Perhaps enough to purchase a little boat also. I grow tired of working for the city and these long days alone upon the river have allowed me time to grow fond of the fisher life. I wonder then what ye might think of becoming a fisher's wife?"
+		""
+		"     Ye loving husband,"
+		""
+		"          Rigby "
+	}
+	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_andrew_script.gui"
+	"gui_page2"	: "guis/readables/sheets/sheet_paper_hand_andrew_script.gui"
 	"snd_page_turn"	: "readable_page_turn"
 }
 
@@ -35,14 +55,25 @@ readables/hits2/millhouse_loft_footlocker_note
 readables/hits2/millhouse_logbook
 {
 	precache
-	"num_pages"	: "1"
+	"num_pages"	: "4"
 	"page1_left_title"	:
 	{
 		""
 	}
 	"page1_left_body"	:
 	{
+		"Third Quarter, Day 46"
+		"Night Shift: Hammond"
 		""
+		"- Axles greased"
+		"- Regulator calibrated"
+		"- Hinges oiled (interior)"
+		""
+		"Notes:"
+		""
+		"     Heavy fog. All quiet."
+		""
+		"     Rigby is a liar. 'Tis not I but he who should assume responsibilty for clearing the"
 	}
 	"page1_right_title"	:
 	{
@@ -50,9 +81,91 @@ readables/hits2/millhouse_logbook
 	}
 	"page1_right_body"	:
 	{
+		"outer wheel. As foreman it is my prerogative to judge the outcome of a challenge."
+		"Do as I say, you miserable little tit. "
+	}
+	"page2_left_title"	:
+	{
 		""
 	}
+	"page2_left_body"	:
+	{
+		"Third Quarter, Day 47"
+		"Day Shift: Rigby"
+		""
+		"- Roof repaired"
+		"- Dock repaired"
+		"- Regulator PROPERLY  "
+		"   calibrated"
+		""
+		"Notes:"
+		"     Hammond is a liar. Knows"
+		"  he well my stream went the "
+	}
+	"page2_right_title"	:
+	{
+		""
+	}
+	"page2_right_body"	:
+	{
+		"farthest, and a bet is a bet. Being foreman gives he no right to be a sore loser."
+		"'Tis a big job to get that wheel unstuck, so best ye get started ye uppity nobber. "
+	}
+	"page3_left_title"	:
+	{
+		""
+	}
+	"page3_left_body"	:
+	{
+		"Third Quarter, Day 48"
+		"Night Shift: Hammond"
+		""
+		"- Axles greased"
+		"- Breaker tested and reset"
+		"- Mold treated with acid"
+		""
+		"Notes:"
+		""
+		"      Slight power fluctuation, soon stabilised."
+		""
+		"      Rigby refused my direct order to clear the outer wheel "
+	}
+	"page3_right_title"	:
+	{
+		""
+	}
+	"page3_right_body"	:
+	{
+		"of the irregular obstruction. Let it be placed on record that this is so. Insolence must not be tolerated. And I tell you as a matter of fact that my own stream was furthest by a head, though perhaps the drink had affected your vision?"
+	}
+	"page4_left_title"	:
+	{
+		""
+	}
+	"page4_left_body"	:
+	{
+		"Third Quarter, Day 49"
+		"Day Shift: Rigby"
+		""
+		"- Received order from City      Watch"
+		"- Replaced paddle 8, wheel 2"
+		""
+		"Notes: "
+		"     Hahaha, you have done it now. The City Watch have ordered the obstruction dealt"
+	}
+	"page4_right_title"	:
+	{
+		""
+	}
+	"page4_right_body"	:
+	{
+		"with before dawn of the morrow. Since I was busy all day, the task now falls upon ye all the same."
+		"If ye stream had gone the farthest, why then was it ye with piss on his boots after, and not I?  "
+	}
 	"gui_page1"	: "guis/readables/books/book_calig_mac_humaine.gui"
+	"gui_page2"	: "guis/readables/books/book_hand_andrew_script.gui"
+	"gui_page3"	: "guis/readables/books/book_calig_mac_humaine.gui"
+	"gui_page4"	: "guis/readables/books/book_hand_andrew_script.gui"
 	"snd_page_turn"	: "readable_page_turn"
 }
 
