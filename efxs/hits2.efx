@@ -108,6 +108,12 @@ eaxreverb "location_tavern_cardroom" {
   preset WOODEN_LARGEROOM
 }
 
+// Hales' room
+
+eaxreverb "location_halesroom" {
+  preset WOODEN_SMALLROOM
+}
+
 // Gatehouse
 
 eaxreverb "location_gatehouse_entrance" {

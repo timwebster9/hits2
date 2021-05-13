@@ -1,0 +1,7 @@
+textures/darkmod/decorative/toys/teddy_bear_mat
+{
+	qer_editorimage		textures/darkmod/decorative/toys/teddy_bear_mat_ed
+	diffusemap			textures/darkmod/decorative/toys/teddy_bear_mat  
+	bumpmap				_flat
+	specularmap			_black
+}
