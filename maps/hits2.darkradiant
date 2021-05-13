@@ -2,9 +2,9 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "917156" } 
-		KeyValue { "LastCameraAngle" "-13.5 157.755 0" } 
-		KeyValue { "LastCameraPosition" "287.822 -620.994 1007.23" } 
+		KeyValue { "EditTimeInSeconds" "917262" } 
+		KeyValue { "LastCameraAngle" "-29.1 266.955 0" } 
+		KeyValue { "LastCameraPosition" "302.564 -682.199 1045.27" } 
 		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/stone/flat/rough_plain_tiles01" } 
 	}
 	Layers
@@ -3971,7 +3971,7 @@ DarkRadiant Map Information File Version 2
 		Node { 3 } // entity (info_locationseparator_44)
 		Node { 3 } // entity (location_tavern_cardroom)
 		Node { 3 } // entity (location_tavern_walkway)
-		Node { 3 } // entity (location_endhouse)
+		Node { 3 } // entity (location_halesroom)
 		Node { 4 } // entity (atdm_ext_timber01_horiz_128_spacer02_2)
 		Node { 4 } // entity (atdm_ext_timber01_horiz_128_spacer02_4)
 		Node { 3 } // entity (atdm_ext_timber01_horiz_128_spacer02_5)
@@ -8264,7 +8264,7 @@ DarkRadiant Map Information File Version 2
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 917156 }
+		TotalSecondsEdited { 917262 }
 	}
 	SelectionGroups
 	{
